@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Loading from './Components/Loading';
+import convergence_logo from './Assets/convergence_logo.png';
+import Card from './Components/Card/Card';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import RegisterLogo from './Assets/register.png';
+import {Route, Routes} from 'react-router-dom';
+import Home from './Components/Home/Home';
+import Paper from './Components/PaperPresentation/Paper';
+import Team from './Components/Team/Team';
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 7000);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/paper-presentation" element={<Paper />} />
+      <Route path="/team" element={<Team />} />
+     </Routes>
   );
 }
 

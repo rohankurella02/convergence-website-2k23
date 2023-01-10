@@ -1,0 +1,184 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    margin: 40px;
+}
+
+.cardBox {
+    margin: 70px 30px;
+}
+
+.cardContainer .cardBox {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.cardContainer .cardBox::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: .5s;
+}
+
+.cardContainer .cardBox::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    transform: skewX(15deg);
+    transition: .5s;
+    filter: blur(30px);
+    transition: .5s;
+}
+
+.cardContainer .cardBox:hover::before,
+.cardContainer .cardBox:hover::after {
+    transform: skew(0deg);
+    left: 20px;
+    width: calc(100%-90px);
+}
+
+.cardContainer .cardBox:before,
+.cardContainer .cardBox:after {
+    background: linear-gradient(315deg, #ffbc00, #ff0058)
+}
+
+/* .cardContainer .cardBox:nth-child(2):before,
+.cardContainer .cardBox:nth-child(2):after {
+    background: linear-gradient(315deg, #03a9f4, #ff0058)
+}
+
+.cardContainer .cardBox:nth-child(2):before,
+.cardContainer .cardBox:nth-child(2):after {
+    background: linear-gradient(315deg, #4dff03, #00d0ff)
+} */
+
+.cardContainer .cardBox span {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    pointer-events: none;
+}
+
+.cardContainer .cardBox span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: .5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cardContainer .cardBox:hover span::before {
+    top: -50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+.cardContainer .cardBox span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: .5s;
+    animation: animate 2s ease-in-out infinite;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    animation-delay: -1s;
+}
+
+.cardContainer .cardBox:hover span::after {
+    bottom: -50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.cardContainer, .cardBox .cardContent {
+    position: relative;
+    left: 0;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transition: .5s;
+    color: #fff;
+}
+
+.cardContainer, .cardBox:hover .cardContent {
+    left: -25px;
+    padding: 60px 40px;
+
+}
+
+.cardContainer, .cardBox .cardContent h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cardContainer, .cardBox .cardContent p {
+    font-size: 1rem;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+.cardButton {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    /* background: #fff; */
+    background-color: #fff;
+    border-radius: 4px;
+    transition: .5s;
+}
