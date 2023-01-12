@@ -166,8 +166,8 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .logo_1 {

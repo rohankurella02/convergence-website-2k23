@@ -49,3 +49,16 @@
     gap: 20px;
     padding: 10px 20px;
 }
+
+.modalBG{
+    background-color: #370d37 !important;
+}
+
+.modalBodyBG{
+    background-color: #4b1a53 !important;
+}
+
+.modalBG .btn-close{
+    background-color: white !important;
+    opacity: 1;
+}
