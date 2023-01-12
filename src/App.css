@@ -171,14 +171,23 @@ a {
 }
 
 .logo_1 {
-  width: 40%;
+  width: 50%;
   margin-bottom: 50px;
+  gap: 2vmin;
+  max-height: 40vh;
+      margin: 0!important;
+    max-width: 30vw;
 }
 
 .logo_2 {
   animation: 1.7s ease 0s infinite normal none running bounce;
       transition: all 0.3s ease 0s;
       /* box-shadow: rgb(13, 110, 253); */
+      width: 70%;
+      gap: 2vmin;
+      max-height: 40vh;
+      margin: 0!important;
+    max-width: 30vw;
 }
 
 .logo_2:hover {

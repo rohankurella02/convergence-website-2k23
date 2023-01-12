@@ -31,7 +31,7 @@ function Footer() {
         <a href="/team"><h2 className='sponsors'>Designed By</h2></a>
         </div>
         <div className="footerMiddle">
-          <img style={{width: "30px"}} src={arrow} alt="arrow" />
+          <img style={{width: "30px", height: "auto!important"}} src={arrow} alt="arrow" />
         </div>
           <div  className="footerRight">
             {/* <h2>Follow Us</h2> */}

@@ -46,7 +46,7 @@ function Shack() {
             <span className="span"></span>
             <span className="span"></span>
             <span className="span"></span>
-            <img src={qr} alt="" />
+            <img className="img" src={qr} alt="" />
           </div>
           <h2 style={{ textAlign: "center" }}>SCAN TO REGISTER</h2>
         </div>

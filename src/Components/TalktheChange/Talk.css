@@ -76,7 +76,8 @@ body {
   font-family: "Josefin sans", sans-serif;
 }
 
-.spanBox h3,h4 {
+.spanBox h3,
+h4 {
   color: rgb(241, 194, 6);
   font-family: "Righteous", cursive;
 }
@@ -200,6 +201,7 @@ body {
 .h01:hover:after {
   content: "changed text";
 }
+
 .qrcode {
   background-color: #fff;
   width: 220px;
@@ -428,8 +430,10 @@ body {
   flex-wrap: wrap;
   padding: 40px;
   margin: auto;
-  padding-left: -100px;
 }
-.headdd{
-    color: white;
+.headdd {
+  color: white;
+}
+.code {
+  padding-left: 80px;
 }

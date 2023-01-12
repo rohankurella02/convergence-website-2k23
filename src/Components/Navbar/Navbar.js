@@ -61,6 +61,10 @@ function Navbar() {
                 <a href="/paper-presentation" className="link">
                   <div className="menu-link">Robotics</div>
                 </a>
+                
+                <a href="/paper-presentation" className="link">
+                  <div className="menu-link">Models</div>
+                </a>
               </div>
             </div>
           </div>
@@ -122,14 +126,20 @@ function Navbar() {
             <a href="/work-shops" className="link">
               Workshops
             </a>
+           
             <a href="/talkthe-change" className="link">
               Talk the Change
             </a>
+           
+           
+           
             <a className="link">Events</a>
             <a href="/paper-presentation" className="link">
               Paper Presentation
             </a>
             <a className="link">Robotics</a>
+            <a className="link">Models</a>
+            
           </div>
         )}
       </div>

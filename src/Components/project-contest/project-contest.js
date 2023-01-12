@@ -1,9 +1,9 @@
 import React from 'react'
-import './coding-contest.css'
+import './project-contest.css'
 import Card from "../Card/Card";
 import Navbar from "../Navbar/Navbar";
 
-function CodingContest() {
+function ProjectContest() {
   return (
       <div>
             <Navbar />
@@ -70,4 +70,4 @@ function CodingContest() {
   )
 }
 
-export default CodingContest
+export default ProjectContest

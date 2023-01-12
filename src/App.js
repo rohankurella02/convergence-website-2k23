@@ -14,6 +14,7 @@ import Work from "./Components/WorkShops/Work";
 import Talk from "./Components/TalktheChange/Talk";
 import Team from "./Components/Team/Team";
 import CodingContest from "./Components/coding-contest/coding-contest"
+import ProjectContest from "./Components/project-contest/project-contest"
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,7 +33,7 @@ function App() {
       <Route path="/team" element={<Team />} />
       <Route path="/contests">
         <Route path="coding-contest" element={<CodingContest/>}/>
-        <Route path="project-contest" element={<p>project contest</p>}/>
+        <Route path="project-contest" element={<ProjectContest/>}/>
         <Route path="capture-the-flag" element={<p>capture the flag</p>}/>
       </Route>
     </Routes>
