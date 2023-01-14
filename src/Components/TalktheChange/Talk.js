@@ -27,6 +27,8 @@ function Talk() {
   return (
     <div>
       <Navbar />
+      <h1 className="hee">TALK THE CHANGE</h1>
+      <h1 className="heee">presents</h1>
       <div className="maincont">
         <div className="box">
           <span className="spanBox">
@@ -74,7 +76,7 @@ function Talk() {
             </div>
             <div className="content">
               <h1>TOP 4 participants</h1>
-              <h4>Interact with</h4>
+              <h4>Interaction with</h4>
               <h1>VIVEK ATHREYA</h1>
               <h4>Director, TFI</h4>
             </div>

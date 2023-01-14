@@ -13,8 +13,8 @@ function ProjectContest() {
                     <p><b>Criteria</b> : Convergence Pass</p>
                     <br />
                     <h2>Student Coordinator</h2>
-                    <p>Vardhan - 9182453492</p>
-                    <p>Neha - 9949933880</p>
+                    <p>Sharanya - 9949386825</p>
+                    <p>Avanikanta - 9396949928</p>
                 </span></div>
 
                 <div>
@@ -33,11 +33,11 @@ function ProjectContest() {
                     <br /> */}
                     
                     <h2>Team Size</h2>
-                    <p><b>2-3</b></p>
+                    <p><b>2-4</b></p>
                     <br />
                     
                     <h2>Registration Deadline</h2>
-                    <p><b>18th January 2023</b></p>
+                    <p><b>15th January 2023</b></p>
                     <br />
                     
                 </span></div>
@@ -45,23 +45,20 @@ function ProjectContest() {
             
             <div className='maincont'>
                 <div className="box"><span className="spanBox">
-                    <h2>Qualifier Round</h2>
-                    <p><b>Date</b> : 21 Jan 2023</p>
-                    <br />
-                    <p><b>Timings</b> : 7:00pm - 9:00pm</p>
-                    <br />
-                    <p><b>Mode</b> : Online</p>
-                    <br />
+                    <h2>Beneficts of participating</h2>
+                    <ul className='text-start text-light'>
+                        <li className='text-warning h6'>Create a sense of competetion</li>
+                        <li className='text-warning'>Learn to work and excel in a team</li>
+                        <li className='text-warning'>To validate ideas and to identify potential issues</li>
+                    </ul>
                 </span></div>
 
                 <div className="box"><span className="spanBox">
-                    <h2>Final Round</h2>
-                    <p><b>Date</b> : 25 Jan 2023</p>
-                    <br />
-                    <p><b>Timings</b> : 10:00am - 1:00pm</p>
-                    <br />
-                    <p><b>Mode</b> : Onsite</p>
-                    <br />
+                    <h2>Note:</h2>
+                    <ul className='text-start text-light'>
+                        <li className='text-warning'>Participants from different branches and different colleges can team up together</li>
+                        <li className='text-warning'>The projects can be of type software or hardware</li>
+                    </ul>
                 </span></div>
                 
             </div>

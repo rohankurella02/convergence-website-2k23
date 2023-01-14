@@ -18,50 +18,14 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  transition: 1s all ease;
-  margin-top: 50px;
+.hee {
+  font-size: 75px;
+  text-align: center;
 }
-
-.container .hexagonArea {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.heee {
+  font-size: 50px;
+  text-align: center;
 }
-
-@media screen and (min-width: 913px) {
-  .container .hexagonArea.last {
-    transform: translateY(-45px);
-  }
-  .container .hexagonArea.zero {
-    transform: translateY(45px);
-  }
-}
-
-@media screen and (min-width: 910px) and (max-width: 1113px) {
-  .container .last {
-    margin-top: 40px;
-  }
-  .container .first {
-    margin-top: 40px;
-  }
-}
-@media screen and (min-width: 587px) and (max-width: 816px) {
-  .container .hexagonArea.last:first-child {
-  }
-}
-
-@media screen and (min-width: 825px) and (max-width: 1113px) {
-  .container .hexagonArea.def {
-    margin-top: 0%;
-  }
-}
-
 .box {
   position: relative;
   width: 300px;
@@ -73,21 +37,35 @@ body {
   display: flex;
   padding: 30px;
   transition: 1s all ease-in-out;
-  font-family: "Josefin sans", sans-serif;
-}
-
-.spanBox h3,
-h4 {
-  color: rgb(241, 194, 6);
-  font-family: "Righteous", cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 .spanBox h5 {
   color: rgb(241, 194, 6);
-  font-family: "Righteous", cursive;
+  font-family: "Times New Roman", Times, serif;
 }
-
+.spanBox h1 {
+  color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
+}
+.spanBox h2 {
+  color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
+}
+.spanBox h4 {
+  color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
+}
+.spanBox h6 {
+  color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
+}
+.spanBox p {
+  color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
+}
 .spanBox h3 {
   color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
 }
 .qrImg {
   width: 100%;
@@ -101,7 +79,7 @@ h4 {
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(241, 194, 6);
-  font-family: "Righteous", cursive;
+
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
@@ -112,7 +90,7 @@ h4 {
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(241, 194, 6);
-  font-family: "Righteous", cursive;
+  font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
@@ -120,12 +98,14 @@ h4 {
 }
 .spanBox p {
   color: rgb(241, 194, 6);
+  font-family: "Times New Roman", Times, serif;
 }
 .spanBox {
   padding: 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .box::before {
@@ -137,6 +117,7 @@ h4 {
   right: -4px;
   /* transform: skewX(2deg) skewY(4deg); */
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  font-family: "Times New Roman", Times, serif;
   transition: 0.5s all ease-in-out;
 }
 .box::after {
@@ -150,6 +131,7 @@ h4 {
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
   filter: blur(50px);
   transition: 0.5s all ease-in-out;
+  font-family: "Times New Roman", Times, serif;
 }
 .box:hover::before {
   content: "";
@@ -157,6 +139,7 @@ h4 {
   top: -4px;
   left: -4px;
   bottom: -4px;
+  font-family: "Times New Roman", Times, serif;
   right: -4px;
   transform: skewX(2deg) skewY(4deg);
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
@@ -174,6 +157,7 @@ h4 {
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
   filter: blur(50px);
   transition: 0.5s all ease-in-out;
+  font-family: "Times New Roman", Times, serif;
 }
 .box span {
   position: absolute;
@@ -184,14 +168,18 @@ h4 {
   background: #0e1538;
   z-index: 10;
   transition: 1s all ease-in-out;
+  font-family: "Times New Roman", Times, serif;
 }
-
+.box p {
+  font-family: "Times New Roman", Times, serif;
+}
 .maincont {
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* margin-top: 60px; */
   flex-wrap: wrap;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .h01:after {
@@ -415,13 +403,13 @@ h4 {
   left: -40%;
   width: 100%;
   height: 120%;
-  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
   transform: rotate(35deg);
   pointer-events: none;
   filter: blur (5px);
 }
 .prizecard:nth-child(1) {
-  background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
 }
 .con {
   display: flex;
@@ -435,5 +423,5 @@ h4 {
   color: white;
 }
 .code {
-  padding-left: 80px;
+  padding-left: 55px;
 }

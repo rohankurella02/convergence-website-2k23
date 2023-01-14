@@ -19,7 +19,7 @@ function Navbar() {
   }, [isTabletOrMobile]);
 
   return (
-    <div className="navbar">
+    <div className="navbarr">
       <div className="navbarContainer">
         <div className="navLogo">
           <a href="/">
@@ -46,11 +46,11 @@ function Navbar() {
                   <div className="menu-link">Workshops</div>
                 </a>
 
-                <a href="/talkthe-change" className="link">
-                  <div className="menu-link">Talk the Change</div>
+                <a href="/awareness" className="link">
+                  <div className="menu-link">Awareness</div>
                 </a>
 
-                <a href="/work-shops" className="link">
+                <a href="/events" className="link">
                   <div className="menu-link">Events</div>
                 </a>
 
@@ -58,11 +58,11 @@ function Navbar() {
                   <div className="menu-link">Paper Presentation</div>
                 </a>
 
-                <a href="/paper-presentation" className="link">
+                <a href="/robotic-s" className="link">
                   <div className="menu-link">Robotics</div>
                 </a>
-                
-                <a href="/paper-presentation" className="link">
+
+                <a href="/model-s" className="link">
                   <div className="menu-link">Models</div>
                 </a>
               </div>
@@ -126,20 +126,63 @@ function Navbar() {
             <a href="/work-shops" className="link">
               Workshops
             </a>
-           
-            <a href="/talkthe-change" className="link">
-              Talk the Change
-            </a>
-           
-           
-           
-            <a className="link">Events</a>
-            <a href="/paper-presentation" className="link">
-              Paper Presentation
-            </a>
-            <a className="link">Robotics</a>
-            <a className="link">Models</a>
-            
+
+
+
+
+<Dropdown className="link">
+              <Dropdown.Toggle variant="" id="dropdown-basic" className="d-flex align-items-center">
+                <a className="text-white mb-0 h5">Awareness</a>
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item className="text-dark" href="/awareness/talkthe-change">
+                  Talk The Change
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="text-dark"
+                  href="/awareness/tech-vision"
+                >
+                  Tech Vision
+                </Dropdown.Item>
+                
+              </Dropdown.Menu>
+            </Dropdown>
+
+
+
+
+
+<Dropdown className="link">
+              <Dropdown.Toggle
+                variant=""
+                id="dropdown-basic"
+                className="d-flex align-items-center"
+              >
+                <a className="text-white mb-0 h5">Events</a>
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item
+                  className="text-dark"
+                  href="/events/social-events"
+                >
+                  Social Events
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="text-dark"
+                  href="/events/fun-events"
+                >
+                  Fun Events
+                </Dropdown.Item>
+                
+              </Dropdown.Menu>
+            </Dropdown>
+
+
+            <a href="/paper-presentation" className="link">Paper Presentation</a>
+            <a href="/robotic-s" className="link">Robotics</a>
+            <a href="/model-s" className="link">Models</a>
           </div>
         )}
       </div>

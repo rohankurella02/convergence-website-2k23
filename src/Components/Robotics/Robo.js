@@ -1,11 +1,8 @@
-import { GiDiamondTrophy } from "react-icons/gi";
-import "./Tech.css";
-import { useEffect, useState } from "react";
-import Card from "../Card/Card";
-import qr from "../../Assets/qr.jpg";
+import React from 'react'
+import './Robo.css'
 import Navbar from "../Navbar/Navbar";
 
-function Tech() {
+function Robo() {
   return (
       <>
         <Navbar />
@@ -14,4 +11,4 @@ function Tech() {
   )
 }
 
-export default Tech;
+export default Robo;
