@@ -33,12 +33,12 @@ function Navbar() {
               <span></span>
               <div className="menu">
                 <div className="menu-links">
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Paper Presentation</div></a>
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Hackathons</div></a>
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Workshops</div></a>
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Contests</div></a>
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Robotics</div></a>
-                  <a href='/paper-presentation' className="link"><div className="menu-link">Tech Talks</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Paper Presentation</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Hackathons</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Workshops</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Contests</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Robotics</div></a>
+                  <a href='/paper-presentation' className="linkk"><div className="menu-link">Tech Talks</div></a>
                 </div>
               </div>
             </div>

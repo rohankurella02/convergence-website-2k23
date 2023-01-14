@@ -8,6 +8,7 @@ import Footer from '../Footer/Footer';
 import RegisterLogo from '../../Assets/register.png';
 import intro from '../../Assets/intro.png'
 
+
 function Home() {
 
     const [loading, setLoading] = useState(true);
