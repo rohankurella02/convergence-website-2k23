@@ -31,7 +31,7 @@ function Home() {
                         {/* <Card /> */}
                         <div className="leftC">
                             <h1 className='homeHeading'>About</h1>
-                            The Annual National Level Technical Symposium under the banner “CONVERGENCE” has been instrumental in shifting the paradigm of usual course work. Since its inception in 1999, it has evolved as an ultimate platform for techno maniacs. The 2012 edition has taken up an untraded path on its way to be stupendous, throwing light on new ideas. It brings in a series of events and activities spread over 2 days involving the students of myriad disciplines and hence broadening the horizons. The 27 year legacy of convergence would start on 15th of December and continues for 2 days, including series of events, workshops, technical presentations, fun events, talks, hackathons and many more!
+                            The Annual National Level Technical Symposium under the banner “CONVERGENCE” has been instrumental in shifting the paradigm of usual course work. Since its inception in 1999, it has evolved as an ultimate platform for techno maniacs. The 2012 edition has taken up an untraded path on its way to be stupendous, throwing light on new ideas. It brings in a series of events and activities spread over 2 days involving the students of myriad disciplines and hence broadening the horizons. The 28 year legacy of convergence would start on 24th of January, 2023 and continues for 2 days, including series of events, workshops, technical presentations, fun events, talks, hackathons and many more!
                         </div>
                         <div className="rightC">
 

@@ -36,10 +36,10 @@ function Footer() {
           <div  className="footerRight">
             {/* <h2>Follow Us</h2> */}
             <div className="icons">
-                <i className="fab fa-facebook-f fa-lg"></i>
-                  <i className="fab fa-instagram fa-lg"></i>
-                  <i className="fab fa-twitter fa-lg"></i>
-                  <i className="fab fa-linkedin-in fa-lg"></i>
+          <a target='_blank' href="https://www.facebook.com/VNRVJ/"><i className="fab fa-facebook-f fa-lg"></i></a>
+          <a target='_blank' href="https://www.instagram.com/convergence2k23_vnrvjiet/"><i className="fab fa-instagram fa-lg"></i></a>
+          <a target='_blank' href="https://twitter.com/vnrvjieto"><i className="fab fa-twitter fa-lg"></i></a>
+          <a target='_blank' href="https://www.linkedin.com/school/vnr-vignanajyothiinstituteofengineeringandtechnology/?originalSubdomain=in"><i className="fab fa-linkedin-in fa-lg"></i></a>
 
             </div>
         </div>

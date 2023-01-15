@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import qr from "../../Assets/qr.jpg";
 import Navbar from "../Navbar/Navbar";
+import workshops from "../../Assets/workshops.jpeg";
 
 function Work() {
   var [windowSize, setWindowSize] = useState(getWindowSize());
@@ -118,23 +119,25 @@ function Work() {
         <div className="box">
           <span className="spanBox">
             <h2>Registration</h2>
-            <h3>Criteria : Convergence Pass</h3>
+            <h4><b>Criteria :</b> Convergence Pass</h4>
             <h2>LIMITED REGISTRATIONS</h2>
             <h5>FIRST COME FIRST SERVE</h5>
           </span>
         </div>
 
         <div>
-          <div className="qrcode">
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <img className="qrImg" src={qr} alt="qr" />
+          <a target='_blank' href="https://forms.gle/pgdZbQQFzJhnhp61A">
+            <div className="qrcode">
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <img className="qrImg" src={workshops} alt="qr" />
+            </div>
+          </a>
+          <div className="scan" style={{ padding: "10px", textAlign: "center",color:"white" }}>
+            Scan or click on the QR Code To Register
           </div>
-          <h2 style={{ padding: "10px", textAlign: "center",color:"white" }}>
-            Scan To Register
-          </h2>
         </div>
         <div className="box">
           <span className="spanBox">

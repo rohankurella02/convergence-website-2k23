@@ -2,6 +2,7 @@ import React from 'react'
 import './coding-contest.css'
 import Card from "../Card/Card";
 import Navbar from "../Navbar/Navbar";
+import qr from '../../Assets/coding_contest_qr.jpg'
 
 function CodingContest() {
   return (
@@ -18,14 +19,16 @@ function CodingContest() {
                 </span></div>
 
                 <div>
-                    <div className='qrcode'>
-                        <span className='span'></span>
-                        <span className='span'></span>
-                        <span className='span'></span>
-                        <span className='span'></span>
-                        <img className="qrImg" src={""} alt="qr" />
-                    </div>
-                    <h2 style={{padding: "10px", textAlign: "center"}}>Scan To Register</h2>
+                  <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSeCFcG0-fkAF7DGIcTs-3ZHAA_ld9CzCCr3QcJ-8sGTvZw28g/viewform">
+                      <div className='qrcode'>
+                          <span className='span'></span>
+                          <span className='span'></span>
+                          <span className='span'></span>
+                          <span className='span'></span>
+                          <img className="qrImg" src={qr} alt="qr" />
+                      </div>
+                   </a>
+                    <div className='scan' style={{padding: "10px", textAlign: "center"}}>Scan or click on the QR Code To Register</div>
                 </div>
                 <div className="box"><span className="spanBox">
                     {/* <h2>Prize Pool</h2>

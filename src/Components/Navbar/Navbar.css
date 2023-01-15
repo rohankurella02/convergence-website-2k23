@@ -45,6 +45,11 @@
     z-index: 2;
 }
 
+ a {
+    text-decoration: none !important;
+  color: white !important;
+}
+
 .menu-btn span {
     display: block;
     width: 33px;
@@ -75,6 +80,10 @@
     transform-origin: 0% 100%;
 }
 
+.menu-link.hide {
+    display: none;
+}
+
 .menu-btn input:checked ~ span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
@@ -92,6 +101,7 @@
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    overflow-y: scroll;
     /* z-index: 999; */
 }
 
@@ -110,13 +120,16 @@
 
 .menu-link {
     background-color: #007691;
-    z-index: 9990;
+    z-index: 999;
     color: #FFFFFF;
     border: none;
     font-weight: 600;
     font-style: normal;
     font-size: 4.7vw;
     width: 80vw;
+    display: flex;
+    align-items: center;
+    gap: 3vmin;
     /* background: #007691; */
     padding-top: 0.5vw;
     padding-bottom: 0.4vw;

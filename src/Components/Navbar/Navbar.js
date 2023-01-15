@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navbar.css";
 import vnr from "../../Assets/vnr.png";
 import { useMediaQuery } from "react-responsive";
 import Dropdown from "react-bootstrap/Dropdown";
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
 function Navbar() {
   //usestate hook to know whether the device is mobile or a laptop
   const [isMobile, setIsMobile] = React.useState(false);
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+  const [show, setShow] = React.useState(false);
 
   React.useEffect(() => {
     if (isTabletOrMobile) {
@@ -17,6 +19,12 @@ function Navbar() {
       setIsMobile(false);
     }
   }, [isTabletOrMobile]);
+
+  const handleShow = () => {
+    // e.preventDefault();
+    setShow(!show);
+  }
+
 
   return (
     <div className="navbarr">
@@ -34,35 +42,59 @@ function Navbar() {
             <span></span>
             <div className="menu">
               <div className="menu-links">
-                <a href="/hackathon" className="link">
-                  <div className="menu-link">Hackathons</div>
+                <a href="/hackathon" className="linkk">
+                  <div className="menu-link"><div>Software Hackathon</div> <input className="button" type="checkbox" value="" /></div>
                 </a>
 
-                <a href="/paper-presentation" className="link">
-                  <div className="menu-link">Contests</div>
+                <a href="/hardware-hackathon" className="linkk">
+                  <div className="menu-link"><div>Hardware Hackathon</div> <input className="button" type="checkbox" value="" /></div>
                 </a>
 
-                <a href="/work-shops" className="link">
+                <a href="/cadathon" className="linkk">
+                  <div className="menu-link"><div>Cadathon</div> <input className="button" type="checkbox" value="" /></div>
+                </a>
+
+                <a href="/contests/coding-contest" className="linkk">
+                  <div className="menu-link">Coding Contest</div>
+                </a>
+
+                <a href="/contests/project-contest" className="linkk">
+                  <div className="menu-link">Project Contest</div>
+                </a>
+
+                <a href="/contests/capture-the-flag" className="linkk">
+                  <div className="menu-link">Capture The Flag</div>
+                </a>
+
+                <a href="/work-shops" className="linkk">
                   <div className="menu-link">Workshops</div>
                 </a>
 
-                <a href="/awareness" className="link">
-                  <div className="menu-link">Awareness</div>
+                <a href="/awareness/talkthe-change" className="linkk">
+                  <div className="menu-link">Talk The Change</div>
                 </a>
 
-                <a href="/events" className="link">
-                  <div className="menu-link">Events</div>
+                <a href="/awareness/tech-vision" className="linkk">
+                  <div className="menu-link">Tech Vision</div>
                 </a>
 
-                <a href="/paper-presentation" className="link">
+                <a href="/events/social-events" className="linkk">
+                  <div className="menu-link">Social Events</div>
+                </a>
+
+                <a href="/events/fun-events" className="linkk">
+                  <div className="menu-link">Fun Events</div>
+                </a>
+
+                <a href="/paper-presentation" className="linkk">
                   <div className="menu-link">Paper Presentation</div>
                 </a>
 
-                <a href="/robotic-s" className="link">
+                <a href="/robotic-s" className="linkk">
                   <div className="menu-link">Robotics</div>
                 </a>
 
-                <a href="/model-s" className="link">
+                <a href="/model-s" className="linkk">
                   <div className="menu-link">Models</div>
                 </a>
               </div>
@@ -83,7 +115,7 @@ function Navbar() {
                 <Dropdown.Item className="text-dark" href="/hackathon">
                   Software Hackathon
                 </Dropdown.Item>
-                <Dropdown.Item className="text-dark" href="/hackathon">
+                <Dropdown.Item className="text-dark" href="/hardware-hackathon">
                   Hardware Hackathon
                 </Dropdown.Item>
                 <Dropdown.Item className="text-dark" href="/hackathon">

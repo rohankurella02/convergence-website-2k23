@@ -107,24 +107,26 @@ function Paper() {
             <p>
               <b>Criteria</b> : Convergence Pass
             </p>
-            <h4>Team Size: 1-3</h4>
-            <h4>DEADLINES</h4>
-            <h4>Registration:15th JAN,2023</h4>
-            <h4>Submission:17th JAN,2023</h4>
+            <h5><b>Team Size:</b> 1-3</h5>
+            <h5>DEADLINES</h5>
+            <h5><b>Registration:</b> 15th JAN,2023</h5>
+            <h5><b>Submission:</b> 17th JAN,2023</h5>
           </span>
         </div>
 
         <div>
-          <div className="qrcode">
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <img className="qrImg" src={qr} alt="qr" />
+          <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfTew9ecYxpTJmZ7wunqu5h-40IC3lXB9rUP5SMlgKjyNkRaA/viewform">
+            <div className="qrcode">
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <img className="qrImg" src={qr} alt="qr" />
+            </div>
+          </a>
+          <div className="scan" style={{ padding: "10px", textAlign: "center", color: "white" }}>
+            Scan or click on the QR Code To Register
           </div>
-          <h2 style={{ padding: "10px", textAlign: "center" }}>
-            Scan To Register
-          </h2>
         </div>
         <div className="box">
           <span className="spanBox">

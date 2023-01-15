@@ -1,23 +1,5 @@
-body{
-
-  /* background-color: black; */
-  background-image: url('../../Assets/landing_page.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-    background-size: cover;
-    color: white;
-  
-  }
-
   .maincont {
     margin-top: 150px;
-  }
-
-  .body{
-display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   }
 
 .container{
@@ -396,4 +378,12 @@ box-shadow: 15px -15px 0 15px #3c2846;
 .row{
   display: flex;
   flex-wrap: wrap;
+}
+
+.scan {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Righteous', cursive;
+  width: 300px;
 }

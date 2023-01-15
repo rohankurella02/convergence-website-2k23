@@ -7,8 +7,12 @@ body {
   color: white;
 }
 
-.maincont {
+.ttcContainer {
   margin-top: 150px;
+}
+
+.maincont {
+  margin-top: 10px;
 }
 
 .body {
@@ -19,15 +23,16 @@ body {
 }
 
 .hee {
-  font-size: 75px;
+  font-size: 9vmin;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .heee {
-  font-size: 50px;
+  font-size: 6vmin;
   text-align: center;
 }
 .box {
-  position: relative;
+  /* position: relative; */
   width: 300px;
   height: 300px;
   margin-top: 40px;
@@ -37,36 +42,11 @@ body {
   display: flex;
   padding: 30px;
   transition: 1s all ease-in-out;
-  font-family: "Times New Roman", Times, serif;
 }
-.spanBox h5 {
+.spanBox {
   color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
 }
-.spanBox h1 {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
-.spanBox h2 {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
-.spanBox h4 {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
-.spanBox h6 {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
-.spanBox p {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
-.spanBox h3 {
-  color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
-}
+
 .qrImg {
   width: 100%;
   height: 100%;
@@ -90,7 +70,6 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
@@ -98,14 +77,12 @@ body {
 }
 .spanBox p {
   color: rgb(241, 194, 6);
-  font-family: "Times New Roman", Times, serif;
 }
 .spanBox {
   padding: 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .box::before {
@@ -117,7 +94,6 @@ body {
   right: -4px;
   /* transform: skewX(2deg) skewY(4deg); */
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
-  font-family: "Times New Roman", Times, serif;
   transition: 0.5s all ease-in-out;
 }
 .box::after {
@@ -131,7 +107,6 @@ body {
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
   filter: blur(50px);
   transition: 0.5s all ease-in-out;
-  font-family: "Times New Roman", Times, serif;
 }
 .box:hover::before {
   content: "";
@@ -139,7 +114,6 @@ body {
   top: -4px;
   left: -4px;
   bottom: -4px;
-  font-family: "Times New Roman", Times, serif;
   right: -4px;
   transform: skewX(2deg) skewY(4deg);
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
@@ -157,7 +131,6 @@ body {
   background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
   filter: blur(50px);
   transition: 0.5s all ease-in-out;
-  font-family: "Times New Roman", Times, serif;
 }
 .box span {
   position: absolute;
@@ -168,18 +141,14 @@ body {
   background: #0e1538;
   z-index: 10;
   transition: 1s all ease-in-out;
-  font-family: "Times New Roman", Times, serif;
 }
-.box p {
-  font-family: "Times New Roman", Times, serif;
-}
+
 .maincont {
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* margin-top: 60px; */
   flex-wrap: wrap;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .h01:after {
@@ -366,7 +335,7 @@ body {
   color: white;
   position: relative;
   font-size: 6em;
-  z-index: 10000;
+  /* z-index: 10000; */
   --GiDiamondTrophy-stroke-width: 24px;
 }
 .content {

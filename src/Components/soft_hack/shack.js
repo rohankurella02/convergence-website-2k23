@@ -2,11 +2,15 @@ import Navbar from "../Navbar/Navbar";
 import "./shack.css";
 import qr from "../../Assets/qr.jpg";
 import { GiDiamondTrophy } from "react-icons/gi";
+import hackathon from "../../Assets/hackathon.jpg";
+import { useLocation } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 
-function Shack() {
+function Shack({type}) {
   var [windowSize, setWindowSize] = useState(getWindowSize());
+  const location = useLocation();
+  console.log({type})
   useEffect(() => {
     function handleWindowResize() {
       setWindowSize(getWindowSize());
@@ -33,101 +37,88 @@ function Shack() {
             <p>
               <b>Criteria</b> : Convergence Pass
             </p>
-            <br />
-            <h2>Student Coordinator</h2>
-            <p>John Doe - 9999999999</p>
+            <p><b>Team Size :</b> 2 - 4</p>
+            <h5>DEADLINES</h5>
+            <p><b>Registration:</b> 18th JAN,2023</p>
+            <p><b>Intramurals :</b> 17th-18th JAN,2023</p>
           </span>
         </div>
 
         <div>
-          {" "}
-          <div className="qrcode">
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <span className="span"></span>
-            <img className="img" src={qr} alt="" />
-          </div>
-          <h2 style={{ textAlign: "center" }}>SCAN TO REGISTER</h2>
+          
+          <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSe9aAqn8rnXJtBVdvvEtQ1GyYgvD6aOTe4HbrsJJCAauN6ybQ/viewform">
+            <div className="qrcode">
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <span className="span"></span>
+              <img className="img" src={qr} alt="" />
+            </div>
+          </a>
+          <h2 className="scan" style={{ textAlign: "center", color: "white", width: "300px" }}>SCAN OR CLICK ON QR CODE TO REGISTER</h2>
         </div>
 
         <div className="box">
           <span className="spanBox">
-            <h2>Prize Money</h2>
-            <p style={{ paddingBottom: "10px" }}>
-              <b>Winner</b> : Rs. 5000 /-
-            </p>
-            <p>
-              <b>Runner</b> : Rs. 3000 /-
-            </p>
-            <br />
-            <h3 style={{ paddingBottom: "10px", color: "rgb(241, 194, 6)" }}>
-              Two Consolation Prizes
-            </h3>
-            <p> Rs. 2000 /-</p>
+            <h1>Prize Pool</h1>
+            <br></br>
+            <h1>25,000/-</h1>
+
+            <GiDiamondTrophy size={100} />
           </span>
         </div>
       </div>
-
-      <div className="body">
-        <div className="container">
-          <div className="hexagonArea zero">
-            {windowSize.innerWidth < 826 && (
-              <div className="hexagon r1b0">
-                <div className="display-5"></div>
-              </div>
-            )}
-          </div>
-          <div className="hexagonArea zero">
-            <div className="hexagon r1b1">
-              <div className="display-5"></div>
-            </div>
-            <div className="hexagon r1b2">
-              <div className="display-5"></div>
-            </div>
-            <div className="hexagon r1b3">
-              <div className="display-5"></div>
-            </div>
-          </div>
-
-          <div className="hexagonArea first">
-            <div className="hexagon r2b1">
-              <div className="display-5 "></div>
-            </div>
-            <div className="hexagon r2b2">
-              <div className="display-5"></div>
-            </div>
-            <div className="hexagon r2b3">
-              <div className="display-5"></div>
-            </div>
-            {windowSize.innerWidth > 1113 && (
-              <div className="hexagon r2b4">
-                <div className="display-5 "></div>
-              </div>
-            )}
-          </div>
-
-          <div className="hexagonArea last">
-            <div className="hexagon r3b1">
-              <div className="display-5"></div>
-            </div>
-            <div className="hexagon r3b2">
-              <div className="display-5"></div>
-            </div>
-            <div className="hexagon r3b3">
-              <div className="display-5"></div>
-            </div>
-          </div>
-
-          <div className="hexagonArea last def">
-            {windowSize.innerWidth > 841 && windowSize.innerWidth < 1113 && (
-              <div className="hexagon r4b0">
-                <div className="display-5 "></div>
-              </div>
-            )}
-          </div>
+      <div className="bdy">
+        <div className="heading">
+          <h1>{type} Hackathon</h1>
+        </div>
+        <div className="hBody">
+          As a part of <b>Convergence</b>, Hyderabad's biggest technical fest, we, the team of HACKATHONS are excited to announce our <b>theme</b> for this year: <b>DIGITAL ERA 2.0.</b>
+        <br />
+        <br />
+          The main objective of theme <b>DIGITAL ERA 2.0</b> is to ensure that the solutions are implemented in our daily lives with ease.
+          Hackathons are the <b>best place</b> where you can come up with <b>innovative solutions</b> that lead to the betterment of the world around you!
+          <br />
+          <br />
+          <b>Theme :</b> DIGITAL ERA 2.0
+          <br />
+          <b>Date :</b> 24th-25th January, 2023
+          <br />
+          <b>Time :</b> 23 hrs Hackathon
+          <br />
+          <b>Deadline to register :</b> 18th January, 2023
+          <br />
+          <b>Intramurals :</b> 17th-18th January, 2023
+          <br />
+          <b>Team size :</b> 2-4
+          <br />
+          <b>Prize pool :</b> Rs.25,000 for each hackathon
+          <br />
+          <br />
+          <b>Hackathon Process:</b>
+          <br />
+          1. Once you've come up with a solution, upload the PPT in the registration form given.
+          2. Teams will be shortlisted based on the PPT and results will be updated on 21st January, 2023.
+    <br />
+    <br />
+          <b>Abstract sample:</b> You can find the abstract sample <a className="aref" href="https://tinyurl.com/CH23-abstract-sample">here</a>
+          <br />
+          <br />
+          <b>Abstract guidelines :</b>You can find the abstract guidelines <a className="aref" href="https://tinyurl.com/abstract-guide">here</a>
+    <br />
+    <br />
+          <b>Note :</b> <br />
+          1. Teaming up with anyone across any college of India, for registration is acceptable. <br />
+          2. Convergence pass is mandatory for shortlisted candidates. <br />
+          3. You can attend Intramurals to understand code-of-conduct of the hackathon and meet mentors to level up your hackathon experience - Optional <br />
+          4. The final round will be held in the premises of VNRVJIET. Travel expenses won't be given by us. <br />
+          5. The organizers are not responsible for any action taken as a consequence of violation of rules. <br />
+            <br />
+            <br />
+          <b>So, what are you waiting for?</b> Come up with your innovative ideas and be a part of this amazing journey!
         </div>
       </div>
+      
     </div>
   );
 }

@@ -31,7 +31,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/hackathon" element={<Shack />} />
+      <Route path="/hackathon" element={<Shack type="Software" />} />
+      <Route path="/hardware-hackathon" element={<Shack type="Hardware" />} />
       <Route path="/paper-presentation" element={<Paper />} />
        <Route path="/robotic-s" element={<Robo />} />
         <Route path="/model-s" element={<Mod/>} />
