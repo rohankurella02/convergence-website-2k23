@@ -1,5 +1,4 @@
 .navbarr {
-    /* background-color: rgba(0, 0, 0, 0.242); */
     color: #fff;
     padding: 0.5rem 1rem;
     display: flex;
@@ -11,8 +10,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    /* position: fixed;
-    top: 0; */
     width: 100%;
     z-index: 999;
 }
@@ -23,7 +20,6 @@
     margin-right: 25px;
     margin-top: 10px;
     z-index: 1;
-    /* -webkit-user-select: none; */
     user-select: none;
 }
 
@@ -97,12 +93,10 @@
     height: 100vh;
     top: -1px;
     z-index: -5;
-    /* -webkit-font-smoothing: antialiased; */
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     overflow-y: scroll;
-    /* z-index: 999; */
 }
 
 @media screen and (max-width: 600px) {

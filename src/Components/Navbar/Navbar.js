@@ -23,8 +23,7 @@ function Navbar() {
   const handleShow = () => {
     // e.preventDefault();
     setShow(!show);
-  }
-
+  };
 
   return (
     <div className="navbarr">
@@ -43,15 +42,24 @@ function Navbar() {
             <div className="menu">
               <div className="menu-links">
                 <a href="/hackathon" className="linkk">
-                  <div className="menu-link"><div>Software Hackathon</div> <input className="button" type="checkbox" value="" /></div>
+                  <div className="menu-link">
+                    <div>Software Hackathon</div>{" "}
+                    <input className="button" type="checkbox" value="" />
+                  </div>
                 </a>
 
                 <a href="/hardware-hackathon" className="linkk">
-                  <div className="menu-link"><div>Hardware Hackathon</div> <input className="button" type="checkbox" value="" /></div>
+                  <div className="menu-link">
+                    <div>Hardware Hackathon</div>{" "}
+                    <input className="button" type="checkbox" value="" />
+                  </div>
                 </a>
 
-                <a href="/cadathon" className="linkk">
-                  <div className="menu-link"><div>Cadathon</div> <input className="button" type="checkbox" value="" /></div>
+                <a href="/cad-athon" className="linkk">
+                  <div className="menu-link">
+                    <div>Cadathon</div>{" "}
+                    <input className="button" type="checkbox" value="" />
+                  </div>
                 </a>
 
                 <a href="/contests/coding-contest" className="linkk">
@@ -90,8 +98,14 @@ function Navbar() {
                   <div className="menu-link">Paper Presentation</div>
                 </a>
 
-                <a href="/robotic-s" className="linkk">
-                  <div className="menu-link">Robotics</div>
+                <a href="/robotics/robo-m" className="linkk">
+                  <div className="menu-link">Maze Bot</div>
+                </a>
+                <a href="/robotics/robo-s" className="linkk">
+                  <div className="menu-link">Robo Soccer</div>
+                </a>
+                <a href="/robotics/robo-r" className="linkk">
+                  <div className="menu-link">Robo Rally</div>
                 </a>
 
                 <a href="/model-s" className="linkk">
@@ -118,7 +132,7 @@ function Navbar() {
                 <Dropdown.Item className="text-dark" href="/hardware-hackathon">
                   Hardware Hackathon
                 </Dropdown.Item>
-                <Dropdown.Item className="text-dark" href="/hackathon">
+                <Dropdown.Item className="text-dark" href="/cad-athon">
                   Cadathon
                 </Dropdown.Item>
               </Dropdown.Menu>
@@ -159,16 +173,20 @@ function Navbar() {
               Workshops
             </a>
 
-
-
-
-<Dropdown className="link">
-              <Dropdown.Toggle variant="" id="dropdown-basic" className="d-flex align-items-center">
+            <Dropdown className="link">
+              <Dropdown.Toggle
+                variant=""
+                id="dropdown-basic"
+                className="d-flex align-items-center"
+              >
                 <a className="text-white mb-0 h5">Awareness</a>
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
-                <Dropdown.Item className="text-dark" href="/awareness/talkthe-change">
+                <Dropdown.Item
+                  className="text-dark"
+                  href="/awareness/talkthe-change"
+                >
                   Talk The Change
                 </Dropdown.Item>
                 <Dropdown.Item
@@ -177,15 +195,10 @@ function Navbar() {
                 >
                   Tech Vision
                 </Dropdown.Item>
-                
               </Dropdown.Menu>
             </Dropdown>
 
-
-
-
-
-<Dropdown className="link">
+            <Dropdown className="link">
               <Dropdown.Toggle
                 variant=""
                 id="dropdown-basic"
@@ -201,20 +214,41 @@ function Navbar() {
                 >
                   Social Events
                 </Dropdown.Item>
-                <Dropdown.Item
-                  className="text-dark"
-                  href="/events/fun-events"
-                >
+                <Dropdown.Item className="text-dark" href="/events/fun-events">
                   Fun Events
                 </Dropdown.Item>
-                
               </Dropdown.Menu>
             </Dropdown>
 
+            <a href="/paper-presentation" className="link">
+              Paper Presentation
+            </a>
 
-            <a href="/paper-presentation" className="link">Paper Presentation</a>
-            <a href="/robotic-s" className="link">Robotics</a>
-            <a href="/model-s" className="link">Models</a>
+            <Dropdown className="link">
+              <Dropdown.Toggle
+                variant=""
+                id="dropdown-basic"
+                className="d-flex align-items-center"
+              >
+                <a className="text-white mb-0 h5">Robotics</a>
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item className="text-dark" href="/robotics/robo-m">
+                  Maze Bot
+                </Dropdown.Item>
+                <Dropdown.Item className="text-dark" href="/robotics/robo-s">
+                  Robo Soccer
+                </Dropdown.Item>
+                <Dropdown.Item className="text-dark" href="/robotics/robo-r">
+                  Robo Rally
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+
+            <a href="/model-s" className="link">
+              Models
+            </a>
           </div>
         )}
       </div>

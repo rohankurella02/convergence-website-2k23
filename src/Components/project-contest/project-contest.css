@@ -68,27 +68,6 @@ display: flex;
       }
   }
 
-
-
-.box{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin-top: 40px;
-  margin-left:30px ;
-  margin-bottom: 40px;
-  background:#fff;
-  display: flex;
-  padding: 30px;
-  transition: 1s all ease-in-out;
-  font-family: 'Josefin sans', sans-serif;
-}
-
-.spanBox h3 {
-    color: rgb(241, 194, 6);
-    font-family: 'Righteous', cursive;
-}
-
 .qrImg {
     width: 100%;
     height: 100%;
@@ -108,85 +87,6 @@ display: flex;
     text-align: center;
 }
 
-.spanBox h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: rgb(241, 194, 6);
-    font-family: 'Righteous', cursive;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-    transition: 1s all ease-in-out;
-}
-
-.spanBox {
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.box::before{
-
-  content: '';
-  position: absolute;
-  top:-4px;
-  left:-4px;
-  bottom:-4px;
-  right:-4px;
-  /* transform: skewX(2deg) skewY(4deg); */
-  background: linear-gradient(315deg,#00ccff,#0e1538,#d400d4);
-    transition: .5s all ease-in-out;
-}
-.box::after {
-
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  bottom: -4px;
-  right: -4px;
-  transform: skewX(2deg) skewY(4deg);
-  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
-  filter: blur(50px);
-transition: .5s all ease-in-out;
-}
-.box:hover::before {
-
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  bottom: -4px;
-  right: -4px;
-  transform: skewX(2deg) skewY(4deg);
-  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
- transition: .5s all ease-in-out;
-}
-
-.box:hover::after {
-
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  bottom: -4px;
-  right: -4px;
-  transform: skewX(2deg) skewY(4deg);
-  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
-  filter: blur(50px);
-    transition: .5s all ease-in-out;
-}
-.box span{
-  position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background: #0e1538;
-  z-index:10;
-transition: 1s all ease-in-out;
-}
 
 .maincont{
   display: flex;

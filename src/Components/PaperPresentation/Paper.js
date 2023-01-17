@@ -103,19 +103,26 @@ function Paper() {
       <div className="maincont">
         <div className="box">
           <span className="spanBox">
-            <h2>Registration</h2>
-            <p>
-              <b>Criteria</b> : Convergence Pass
-            </p>
-            <h5><b>Team Size:</b> 1-3</h5>
+            <h4>Registration Criteria:</h4> <h4>Convergence Pass</h4>
+            <h5>
+              <b>Team Size:</b> 1-3
+            </h5>
             <h5>DEADLINES</h5>
-            <h5><b>Registration:</b> 15th JAN,2023</h5>
-            <h5><b>Submission:</b> 17th JAN,2023</h5>
+            <h5>
+              <b style={{ display: "inline-block" }}>Registration:</b>
+              15th JAN,2023
+            </h5>
+            <h5>
+              <b>Submission:</b> 17th JAN,2023
+            </h5>
           </span>
         </div>
 
         <div>
-          <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfTew9ecYxpTJmZ7wunqu5h-40IC3lXB9rUP5SMlgKjyNkRaA/viewform">
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfTew9ecYxpTJmZ7wunqu5h-40IC3lXB9rUP5SMlgKjyNkRaA/viewform"
+          >
             <div className="qrcode">
               <span className="span"></span>
               <span className="span"></span>
@@ -124,22 +131,39 @@ function Paper() {
               <img className="qrImg" src={qr} alt="qr" />
             </div>
           </a>
-          <div className="scan" style={{ padding: "10px", textAlign: "center", color: "white" }}>
+          <div
+            className="scan"
+            style={{ padding: "10px", textAlign: "center", color: "white" }}
+          >
             Scan or click on the QR Code To Register
           </div>
         </div>
         <div className="box">
           <span className="spanBox">
-            <h1>Prize Pool</h1>
-            <br></br>
-            <h1>15,000/-</h1>
-            <GiDiamondTrophy size={100} />
+            <h4>Student Coordinators</h4>
+            <br />
+            <h5>Sushma-7075748018</h5>
+            <h5>Chaithanya-9347122029</h5>
+            <h5>Aashritha-9100002412</h5>
+            <h5>Neha Reddy-7729933894</h5>
+            <h5>Harveni-9440377304</h5>
           </span>
         </div>
       </div>
+
+      <div className="box b1">
+        <span className="spanBox">
+          <h1>Prize Pool</h1>
+          <br></br>
+          <h1>15,000/-</h1>
+          <GiDiamondTrophy size={100} />
+        </span>
+      </div>
+
       <div className="domain">
         <h1>Domains</h1>
       </div>
+
       <div className="cards">
         <Card card={card} />
       </div>

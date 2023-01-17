@@ -11,8 +11,8 @@ function Card({card}) {
               <span></span>
               <div className="cardContent">
                 <h2 style={item.cardHeading} className="cardHeading">{item.heading}</h2>
-                <p style={item.cardText} className="cardText">{item.text}</p>
-                <a className="cardButton">Read More</a>
+                <p style={item.cardText} className="cardText h6">{item.text}</p>
+                <a className="cardButton text-dark">Read More</a>
               </div>
             </div>
           )

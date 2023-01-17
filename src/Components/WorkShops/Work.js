@@ -118,10 +118,12 @@ function Work() {
       <div className="maincont">
         <div className="box">
           <span className="spanBox">
-            <h2>Registration</h2>
-            <h4><b>Criteria :</b> Convergence Pass</h4>
+             <h2>Registration</h2>
+            <p>
+              <b>Criteria</b> : Convergence Pass
+            </p>
             <h2>LIMITED REGISTRATIONS</h2>
-            <h5>FIRST COME FIRST SERVE</h5>
+            <h2>FIRST COME FIRST SERVE</h2>
           </span>
         </div>
 
@@ -152,9 +154,233 @@ function Work() {
       <div className="domain">
         <h1>Domains</h1>
       </div>
-      <div className="cards">
-        <Card card={card} />
+   
+      
+      <div className="row">
+      <div class="newcard col">
+      <div>
+         <h1>01</h1>
+         <h1>
+            React Native
+         </h1>
       </div>
+       
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>01</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+      
+      <div class="newcard col">
+      <div>
+         <h1>02</h1>
+         <h1>
+           Applied AI
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+              <h1>02</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+   
+   <div class="newcard col">
+      <div>
+         <h1>03</h1>
+         <h1>
+              Automative Embedded Systems
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>03</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+ </div>
+   
+    <div className="row">
+      <div class="newcard col">
+      <div>
+         <h1>04</h1>
+         <h1>
+            Analysing and Visualising data through advanced frameworks
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+              <h1>04</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+      
+      <div class="newcard col">
+      <div>
+         <h1>05</h1>
+         <h1>
+           3D Modelling and 3D Printing
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>05</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+   
+   <div class="newcard col">
+      <div>
+         <h1>06</h1>
+         <h1>
+            Robotics and Drones
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>06</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+ </div>
+ 
+  <div className="row">
+      <div class="newcard col">
+      <div>
+         <h1>07</h1>
+         <h1>
+           DevOps
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>07</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+      
+      <div class="newcard col">
+      <div>
+         <h1>08</h1>
+         <h1>
+            IOT Workshop using ESP32 and NodeMCU
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>08</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+   
+   <div class="newcard col">
+      <div>
+         <h1>09</h1>
+         <h1>
+            Smart Vehicles
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+              <h1>09</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+ </div>
+ 
+  <div className="row">
+      <div class="newcard col">
+      <div>
+         <h1>10</h1>
+         <h1>
+            The Role of Mathematics in Mezzanine Technologies
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+               <h1>10</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+      
+      <div class="newcard col">
+      <div>
+         <h1>11</h1>
+         <h1>
+          Design of Anchored Connections
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+              <h1>11</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+   
+   <div class="newcard col">
+      <div>
+         <h1>12</h1>
+         <h1>
+            Ethical Hacking
+         </h1>
+      </div>
+      <div class="cover">
+         <div class="coverFront">
+            <div>
+              <h1>12</h1>
+            </div>
+         </div>
+         <div class="coverBack"></div>
+      </div>
+   </div>
+   
+ </div>
+      
+      
+      
+      
+      
     </div>
   );
 }

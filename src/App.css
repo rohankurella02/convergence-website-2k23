@@ -20,37 +20,18 @@ body {
 }
 
 .App {
-  /* background-image: url('./Assets/landing_page.png');
-
-  background-repeat: space;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-      background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-  /* height: fit-content; */
   width: 100%;
-  /* height: 100%; */
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
   position: relative;
-  /* top: 0; */
   box-sizing: border-box;
-    /* height: 100vh; */
     overflow-x: hidden;
     overflow-y: auto;
-    /* padding-top: 10vh; */
-    /* position: absolute; */
     scroll-behavior: smooth;
     scrollbar-width: none;
     top: 0;
     width: 100%;
     z-index: 1;
-
-
 }
 
 * {
@@ -64,14 +45,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  /* Css code to align items in centre vertical */ 
-  height: 100vh;
+  align-items: center;  height: 100vh;
   width: 100%;
   position: relative;
-
-  /* align-items: center; */
-    /* background-image: url(/static/media/landing_bg.9d7a227….png); */
     background-image: url('./Assets/landing_page.png');
     background-position: bottom;
     background-repeat: no-repeat;
@@ -79,9 +55,7 @@ body {
     box-sizing: border-box;
     display: flex;
     height: 100%;
-    /* justify-content: flex-end; */
     min-height: 100vh;
-    /* padding: 5vh 2vw; */
     width: 100%;
 
 }
@@ -131,9 +105,7 @@ body {
   background-image: url('./Assets/intro.png');
   background-repeat: space;
   background-size: cover;
-  /* background-attachment: fixed; */
   background-position: bottom;
-  
   height: 100%;
 }
 
@@ -146,11 +118,8 @@ body {
 .filler {
   width: 100%;
   height: 85px;
-  /* border: 3px solid white; */
   background-color: rgb(0, 0, 0);
     background: linear-gradient(rgb(56, 18, 92), rgb(0, 0, 43));
-    /* z-index: 9999; */
-    /* margin-bottom: -50px; */
 }
 
 .leftC {
@@ -167,16 +136,10 @@ body {
     font-size: 4vmin;
 }
 
-/* a {
-  text-decoration: none !important;
-  color: white !important;
-} */
-
 .logo_1 {
   width: 90vmin;
   margin-bottom: 50px;
   gap: 2vmin;
-  /* max-height: 50vh; */
       margin: 0!important;
     max-width: 500px;
 }
@@ -184,13 +147,9 @@ body {
 .logo_2 {
   animation: 1.7s ease 0s infinite normal none running bounce;
       transition: all 0.3s ease 0s;
-      /* box-shadow: rgb(13, 110, 253); */
       width: 70%;
       gap: 2vmin;
-      
       margin: 0!important;
-    /* max-height: 40vh;
-    max-width: 30vw; */
 }
 
 .logo_2:hover {
@@ -220,4 +179,106 @@ body {
 
 .logo img {
   vertical-align: middle;
+}
+
+/* CSS Code for box starts here */
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  background: #fff;
+  display: flex;
+  padding: 30px;
+  transition: 1s all ease-in-out;
+  font-family: "Josefin sans", sans-serif;
+  color: rgb(241, 194, 6);
+}
+
+.spanBox {
+  color: rgb(241, 194, 6);
+  font-family: "Righteous", cursive;
+}
+
+.spanBox h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(241, 194, 6);
+  font-family: "Righteous", cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  transition: 1s all ease-in-out;
+}
+
+.spanBox {
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+  /* transform: skewX(2deg) skewY(4deg); */
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  transition: 0.5s all ease-in-out;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+  transform: skewX(2deg) skewY(4deg);
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  filter: blur(50px);
+  transition: 0.5s all ease-in-out;
+}
+.box:hover::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+  transform: skewX(2deg) skewY(4deg);
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  transition: 0.5s all ease-in-out;
+}
+
+.box:hover::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  bottom: -4px;
+  right: -4px;
+  transform: skewX(2deg) skewY(4deg);
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  filter: blur(50px);
+  transition: 0.5s all ease-in-out;
+}
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0e1538;
+  z-index: 10;
+  transition: 1s all ease-in-out;
+}
+
+.roundbox{
+  align-items: center;
 }

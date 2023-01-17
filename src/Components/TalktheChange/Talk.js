@@ -29,22 +29,23 @@ function Talk() {
     <>
       <Navbar />
       <div className="ttcContainer">
-
-        <h1 className="hee">TALK THE CHANGE</h1>
-        <h1 className="heee">presents</h1>
         <div className="maincont">
           <div className="box">
-            <span className="spanBox">
+            <span className="spanBox b6">
               <h2>Registration</h2>
-              <h5>Convergence Pass Mandatory</h5>
-              <h3>Time Limit-5min</h3>
-              <h4 className="color:rgb(241, 194, 6)">English/Telugu</h4>
-              <h3>19th & 20th JAN,2023</h3>
+              <p>Criteria : Convergence Pass</p>
+              <h2>Time Limit :</h2>
+              <p>5min</p>
+              <p>English/Telugu</p>
+              <p>19th & 20th JAN,2023</p>
             </span>
           </div>
           <div>
             <div className="code">
-              <a target='_blank' href="https://docs.google.com/forms/d/e/1FAIpQLSer8WyMrNvpvaHs0QxkwPhbbGaM1NtKCCN_XvbhNTR3fEeGAw/viewform">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSer8WyMrNvpvaHs0QxkwPhbbGaM1NtKCCN_XvbhNTR3fEeGAw/viewform"
+              >
                 <div className="qrcode">
                   <span className="span"></span>
                   <span className="span"></span>
@@ -54,13 +55,14 @@ function Talk() {
                 </div>
               </a>
             </div>
-            <h2 style={{ padding: "30px", textAlign: "center", color: "white" }}>
-              Scan To Register
+            <h2
+              className="scan"
+              style={{ textAlign: "center", color: "white", width: "300px" }}
+            >
+              SCAN OR CLICK ON QR CODE TO REGISTER
             </h2>
-            <h1 style={{ padding: "10px", textAlign: "center", color: "white" }}>
-              The Orator Competition
-            </h1>
           </div>
+
           <div className="box">
             <span className="spanBox">
               <h2>Student Coordinator</h2>
@@ -73,13 +75,19 @@ function Talk() {
           </div>
         </div>
 
+        <h1 style={{ padding: "10px", textAlign: "center", color: "white" }}>
+          The Orator Competition
+        </h1>
         <div className="con">
           <div>
             <div className="prizecard">
               <div className="icon">
                 <GiDiamondTrophy color="white" size={100} />
               </div>
-              <div className="content">
+              <div
+                className="content"
+                style={{ textAlign: "center", color: "white" }}
+              >
                 <h1>TOP 4 participants</h1>
                 <h4>Interaction with</h4>
                 <h1>VIVEK ATHREYA</h1>
