@@ -8,94 +8,6 @@ import workshops from "../../Assets/workshops.jpeg";
 
 function Work() {
   var [windowSize, setWindowSize] = useState(getWindowSize());
-
-  var [card, setCard] = useState([
-    {
-      id: 1,
-      heading: "One",
-      text: "React Native",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 2,
-      heading: "Two",
-      text: "Applied AI",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Three",
-      text: "Automative Embedded Systems",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Four",
-      text: "Analysing and Visualising data through advanced frameworks",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Five",
-      text: "3D Modelling and 3D Printing",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Six",
-      text: "Robotics and Drones",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Seven",
-      text: "DevOps",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Eight",
-      text: "IOT Workshop using ESP32 and NodeMCU",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Nine",
-      text: "Smart Vehicles",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Ten",
-      text: "The Role of Mathematics in Mezzanine Technologies",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Eleven",
-      text: "Design of Anchored Connections",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Twelve",
-      text: "Ethical Hacking",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-  ]);
-
   useEffect(() => {
     function handleWindowResize() {
       setWindowSize(getWindowSize());
@@ -151,198 +63,63 @@ function Work() {
         </div>
         <div className="box">
           <span className="spanBox">
-            <h2>Student Coordinator</h2>
-            <p>Sai Shreya - 8688761933</p>
-            <p>Bhanusree - 6305745015</p>
-            <p>Ravi - 9912263085</p>
-            <p>Navya - 9652046095</p>
+            <h2>Student Coordinators</h2>
+           <p>A. Sai Shreya - 86887 61933</p>
+<p>C. Ravi Varma - 99122 63085</p>
+<p>E. Bhanusree - 63057 45015</p>
+<p>I. Navya - 96520 46095</p>
           </span>
         </div>
       </div>
-      <div className="domain">
-        <h1>Domains</h1>
-      </div>
-
-      <div className="row">
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">React Native</h1>
-          </div>
-
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">01</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
+      
+       <div className="bdy">
+        <div className="heading">
+          <h1>Workshops</h1>
         </div>
+        <div className="hBody">
+          Hey there!!<br />
+We, team <b>WORKSHOPS</b>, are extremely delighted to present the 12 workshops that are a part of <b>CONVERGENCE 2k23!</b><br />
+<br />
+<b>“Tell me and I forget, teach me and I may remember, involve me and I learn.”</b> <br />- Benjamin Franklin<br />
+<br />
+That's exactly what workshops are for!<br />
+It is the perfect place to participate, if you are looking to:<br />
+1. Learn new skills<br />
+2. Have exposure to technologies from other branches/domains<br />
+3. Get a participation certificate that can be used to build your resume<br />
+<br />
+<b>Registration link:</b> <br />
+https://forms.gle/pgdZbQQFzJhnhp61A<br />
+<br />
+<b>Note:</b><br />
+1. It is mandatory to have a <b>Convergence pass</b> to participate for workshops.<br />
+2. Every workshop has a <b>limit of 60 students.</b> It will be based on <b>first come, first serve. </b><br />
+<br />
+<b>List of workshops:</b><br />
+1. React Native <br />
+2. Applied AI <br />
+3. Ethical Hacking <br />
+4. DevOps <br />
+5. IoT Workshop using ESP32 and NodeMCU <br />
+6. Smart Vehicles<br />
+7. Robotics and Drones <br />
+8. 3D Modelling and 3D Printing <br />
+9. Design of Anchored Connections <br />
+10. Automotive Embedded Systems <br />
+11. Analysing and Visualising Data through advanced frameworks<br />
+12. The Role of Mathematics in Mezzanine technologies <br />
+13. Design Thinking - A human centric approach<br />
+<br />
 
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Applied AI</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">02</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
 
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Automative Embedded Systems</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">03</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row">
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">
-              Analysing and Visualising data through advanced frameworks
-            </h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">04</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">3D Modelling and 3D Printing</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">05</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Robotics and Drones</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">06</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
+<br />
+Hop in, let's learn and grow together! <br />
+See you soon :)<br />
+        
         </div>
       </div>
-
-      <div className="row">
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">DevOps</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">07</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">IOT Workshop using ESP32 and NodeMCU</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">08</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Smart Vehicles</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">09</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row">
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">
-              The Role of Mathematics in Mezzanine Technologies
-            </h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">10</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Design of Anchored Connections</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">11</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-
-        <div class="newcard col">
-          <div>
-            <h1 className="hd1">Ethical Hacking</h1>
-          </div>
-          <div class="cover">
-            <div class="coverFront">
-              <div>
-                <h1 className="num">12</h1>
-              </div>
-            </div>
-            <div class="coverBack"></div>
-          </div>
-        </div>
-      </div>
+      
+      
     </div>
   );
 }
