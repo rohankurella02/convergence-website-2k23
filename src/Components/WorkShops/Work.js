@@ -78,7 +78,7 @@ function Work() {
         </div>
         <div className="hBody">
           Hey there!!<br />
-We, team <b>WORKSHOPS</b>, are extremely delighted to present the 12 workshops that are a part of <b>CONVERGENCE 2k23!</b><br />
+We, team <b>WORKSHOPS</b>, are extremely delighted to present the 13 workshops that are a part of <b>CONVERGENCE 2k23!</b><br />
 <br />
 <b>“Tell me and I forget, teach me and I may remember, involve me and I learn.”</b> <br />- Benjamin Franklin<br />
 <br />
