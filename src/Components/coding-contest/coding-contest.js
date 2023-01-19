@@ -65,7 +65,7 @@ function Coding({ type }) {
             className="scan"
             style={{ textAlign: "center", color: "white", width: "300px" }}
           >
-            SCAN OR CLICK ON QR CODE TO REGISTER
+            CLICK ON QR CODE TO REGISTER
           </h2>
         </div>
 

@@ -118,7 +118,7 @@ function Work() {
       <div className="maincont">
         <div className="box">
           <span className="spanBox">
-             <h2>Registration</h2>
+            <h2>Registration</h2>
             <p>
               <b>Criteria</b> : Convergence Pass
             </p>
@@ -128,7 +128,7 @@ function Work() {
         </div>
 
         <div>
-          <a target='_blank' href="https://forms.gle/pgdZbQQFzJhnhp61A">
+          <a target="_blank" href="https://forms.gle/pgdZbQQFzJhnhp61A">
             <div className="qrcode">
               <span className="span"></span>
               <span className="span"></span>
@@ -137,8 +137,16 @@ function Work() {
               <img className="qrImg" src={workshops} alt="qr" />
             </div>
           </a>
-          <div className="scan" style={{ padding: "10px", textAlign: "center",color:"white" }}>
-            Scan or click on the QR Code To Register
+          <div
+            className="scan"
+            style={{
+              paddingTop: "10px",
+              paddingBottom: "70px",
+              textAlign: "center",
+              color: "white",
+            }}
+          >
+            Click QR To Register
           </div>
         </div>
         <div className="box">
@@ -154,233 +162,187 @@ function Work() {
       <div className="domain">
         <h1>Domains</h1>
       </div>
-   
-      
+
       <div className="row">
-      <div class="newcard col">
-      <div>
-         <h1>01</h1>
-         <h1>
-            React Native
-         </h1>
-      </div>
-       
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>01</h1>
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">React Native</h1>
+          </div>
+
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">01</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-      
-      <div class="newcard col">
-      <div>
-         <h1>02</h1>
-         <h1>
-           Applied AI
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-              <h1>02</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Applied AI</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">02</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-   
-   
-   <div class="newcard col">
-      <div>
-         <h1>03</h1>
-         <h1>
-              Automative Embedded Systems
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>03</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Automative Embedded Systems</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">03</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
-   </div>
-   
- </div>
-   
-    <div className="row">
-      <div class="newcard col">
-      <div>
-         <h1>04</h1>
-         <h1>
-            Analysing and Visualising data through advanced frameworks
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-              <h1>04</h1>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">
+              Analysing and Visualising data through advanced frameworks
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">04</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-      
-      <div class="newcard col">
-      <div>
-         <h1>05</h1>
-         <h1>
-           3D Modelling and 3D Printing
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>05</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">3D Modelling and 3D Printing</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">05</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-   
-   
-   <div class="newcard col">
-      <div>
-         <h1>06</h1>
-         <h1>
-            Robotics and Drones
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>06</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Robotics and Drones</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">06</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
-   </div>
-   
- </div>
- 
-  <div className="row">
-      <div class="newcard col">
-      <div>
-         <h1>07</h1>
-         <h1>
-           DevOps
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>07</h1>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">DevOps</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">07</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-      
-      <div class="newcard col">
-      <div>
-         <h1>08</h1>
-         <h1>
-            IOT Workshop using ESP32 and NodeMCU
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>08</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">IOT Workshop using ESP32 and NodeMCU</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">08</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-   
-   
-   <div class="newcard col">
-      <div>
-         <h1>09</h1>
-         <h1>
-            Smart Vehicles
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-              <h1>09</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Smart Vehicles</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">09</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
-   </div>
-   
- </div>
- 
-  <div className="row">
-      <div class="newcard col">
-      <div>
-         <h1>10</h1>
-         <h1>
-            The Role of Mathematics in Mezzanine Technologies
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-               <h1>10</h1>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">
+              The Role of Mathematics in Mezzanine Technologies
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">10</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-      
-      <div class="newcard col">
-      <div>
-         <h1>11</h1>
-         <h1>
-          Design of Anchored Connections
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-              <h1>11</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Design of Anchored Connections</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">11</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
-      </div>
-   </div>
-   
-   
-   <div class="newcard col">
-      <div>
-         <h1>12</h1>
-         <h1>
-            Ethical Hacking
-         </h1>
-      </div>
-      <div class="cover">
-         <div class="coverFront">
-            <div>
-              <h1>12</h1>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Ethical Hacking</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">12</h1>
+              </div>
             </div>
-         </div>
-         <div class="coverBack"></div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
-   </div>
-   
- </div>
-      
-      
-      
-      
-      
     </div>
   );
 }

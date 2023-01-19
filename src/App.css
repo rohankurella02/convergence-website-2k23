@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
   /* background-image: url('./Assets/landing_page.png'); */
@@ -14,9 +14,6 @@ body {
   /* height: fit-content; */
   /* width: 100%; */
   /* height: 100%; */
-
-  
-
 }
 
 .App {
@@ -25,39 +22,39 @@ body {
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* text-shadow: rgb(192 155 255) 0px 3px 5px; */
 }
 
 .home_container {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;  height: 100vh;
+  align-items: center;
+  height: 100vh;
   width: 100%;
   position: relative;
-    background-image: url('./Assets/landing_page.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    display: flex;
-    height: 100%;
-    min-height: 100vh;
-    width: 100%;
-
+  background-image: url("./Assets/landing_page.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -73,8 +70,8 @@ body {
     margin-right: 0px;
   }
 
-  .scan{
-    color: white!important;
+  .scan {
+    color: white !important;
   }
 
   .logo_1 {
@@ -96,60 +93,113 @@ body {
   }
   .leftC {
     margin: 2px;
-    width: fit-content!important;
+    width: fit-content !important;
   }
 }
 
 .containerr {
   width: 100%;
-  background-image: url('./Assets/intro.png');
+  background-image: url("./Assets/intro.png");
   background-repeat: space;
   background-size: cover;
   background-position: bottom;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .homeHeading {
   color: #ffe35a;
-  font-size: 13vmin;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10vmin;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .filler {
   width: 100%;
   height: 85px;
   background-color: rgb(0, 0, 0);
-    background: linear-gradient(rgb(56, 18, 92), rgb(0, 0, 43));
+  background: linear-gradient(rgb(56, 18, 92), rgb(0, 0, 43));
 }
 
 .leftC {
   color: white;
   width: 50%;
   margin: 40px;
-  font-family: 'Josephin Sans', sans-serif;
+  font-family: "Josephin Sans", sans-serif;
   filter: drop-shadow(black 0px 0px 10px);
-      line-height: 1.6;
-    margin-top: 4vmin;
-    text-shadow: rgb(192, 155, 255) 0px 3px 5px;
-    width: 60%;
-    padding: 0px 0px 0px 6vmin;
-    font-size: 4vmin;
+  line-height: 1.6;
+  margin-top: 4vmin;
+  text-shadow: rgb(192, 155, 255) 0px 3px 5px;
+  width: 60%;
+  padding: 0px 0px 0px 6vmin;
+  font-size: 4vmin;
+}
+
+.clubs {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  
+}
+
+.rightC {
+  margin: 40px;
+  margin-top: 4vmin;
+  padding: 0px 0px 0px 6vmin;
+  /* display: flex; */
+  /* width: 50%; */
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+.homeHeading_2 {
+  font-family: "Righteous", cursive;
+  /* color: white; */
+  color: #ffe35a;
+  text-shadow: rgb(192 155 255) 0px 3px 5px;
+    font-size: 50px;
+}
+
+.club {
+  width: 20em;
+  background-color: white;
+  /* opacity: 0.5; */
+  border-radius: 20px;
+  margin-bottom: 30px;
+  /* height: 400px; */
+  height: fit-content;
+  /* overflow: hidden; */
+  /* display: inline; */
+}
+
+.club img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .logo_1 {
   width: 90vmin;
   margin-bottom: 50px;
   gap: 2vmin;
-      margin: 0!important;
-    max-width: 500px;
+  margin: 0 !important;
+  max-width: 500px;
 }
 
 .logo_2 {
   animation: 1.7s ease 0s infinite normal none running bounce;
-      transition: all 0.3s ease 0s;
-      width: 70%;
-      gap: 2vmin;
-      margin: 0!important;
+  transition: all 0.3s ease 0s;
+  width: 70%;
+  gap: 2vmin;
+  margin: 0 !important;
 }
 
 .logo_2:hover {
@@ -279,6 +329,6 @@ body {
   transition: 1s all ease-in-out;
 }
 
-.roundbox{
+.roundbox {
   align-items: center;
 }

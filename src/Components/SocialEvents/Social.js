@@ -9,114 +9,6 @@ import workshops from "../../Assets/workshops.jpeg";
 function Social() {
   var [windowSize, setWindowSize] = useState(getWindowSize());
 
-  var [card, setCard] = useState([
-    {
-      id: 1,
-      heading: "SOCH",
-      text: "Idea presentation competition of various social impacts",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 2,
-      heading: "AAVISHKAR",
-      text: "Presenting creative and innovative prototypes that address societal issues in stalls",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "I AM NOT A HERO ",
-      text: "An opportunity to hear out from a few unsung heroes of society who will discuss their achievements",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "WILL YOU BE MY TEACHER",
-      text: "Insights are given to children studying in government schools by inviting them to the college",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "PARISHEELAN",
-      text: " Capturing diverse perspectives of people on current social issues",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "NSS GALLERY",
-      text: "Showcasing works and societal contributions of Team NSS",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "JAGRUTHI",
-      text: "It acts as a platform to Educate, Enlighten and Empower the fellow citizens by exhibiting various topics.",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "DHIKSUCHI",
-      text: "Creating awareness on Schlorships, National portals that provide Various benefits to students and Serves as a direction to future plans",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: " WOW ",
-      text: "Wealth Out of Waste ( Making any useful product from waste materials)",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "WHAT DO YOU KNOW ABOUT COLLEGE",
-      text: "A platform that brings students to know more about the college",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "VOTE FOR NATION",
-      text: " Application for Voter ID and representing the importance for voting and its role in Nation's Future",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "YOUTH PARLIAMENT",
-      text: "Helps in understanding our constitution and the way our parliament is implemented.",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "సాహిత్య సందడి",
-      text: "A platform to showcase our own history and culture",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "జిజ్ఞాస",
-      text: "A rapid fire to showcase your talent in the fastest time possible",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "సభా పర్వం( Debate)",
-      text: "Choose a side for a given topic and stand by it with your strong points",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-  ]);
-
   useEffect(() => {
     function handleWindowResize() {
       setWindowSize(getWindowSize());
@@ -136,9 +28,9 @@ function Social() {
   return (
     <div>
       <Navbar />
-      <div className="maincont">
+      <div className="maincont pb">
         <div className="box">
-          <span className="spanBox">
+          <span className="spanBox b10">
             <h2>Registration</h2>
             <p>
               <b>Criteria :</b> Convergence Pass
@@ -166,8 +58,267 @@ function Social() {
         </div>
       </div>
 
-      <div className="cards">
-        <Card card={card} />
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Idea presentation competition of various social impacts
+            </h1>
+          </div>
+
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">SOCH</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Presenting creative and innovative prototypes that address
+              societal issues in stalls
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">AAVISHKAR</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              An opportunity to hear out from a few unsung heroes of society who
+              will discuss their achievements and life experiences
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">I AM NOT A HERO</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Insights are given to children studying in government schools by
+              inviting them to the college.
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">WILL YOU BE MY TEACHER</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Capturing diverse perspectives of people on current social issues
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">PARISH-<br />EELAN </h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Showcasing works and societal contributions of Team NSS
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">NSS GALLERY</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              {" "}
+              It acts as a platform to Educate, Enlighten and Empower the fellow
+              citizens by exhibiting various topics
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">JAGRUTHI </h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Creating awareness on Schlorships, National portals that provide
+              Various benefits to students and Serves as a direction to future
+              plans
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">DHIKSUCHI</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              {" "}
+              Wealth Out of Waste <br />
+              (Making any useful product from waste materials){" "}
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">WOW</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              A platform that brings students to know more about the college
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">WHAT DO YOU KNOW ABOUT COLLEGE</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Application for Voter ID and representing the importance for
+              voting and its role in Nation's Future
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">VOTE FOR NATION </h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Helps in understanding our constitution and the way our parliament
+              is implemented
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">YOUTH PARLIA-<br />MENT</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              A platform to showcase our own history and culture
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">సాహిత్య సందడి</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              A rapid fire to showcase your talent in the fastest time possible
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">జిజ్ఞాస </h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1 hd2">
+              Choose a side for a given topic and stand by it with your strong
+              points
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">సభా పర్వం</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

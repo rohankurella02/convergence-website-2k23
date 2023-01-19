@@ -247,12 +247,18 @@ body {
   /* z-index: 10000; */
   --GiDiamondTrophy-stroke-width: 24px;
 }
+
+.ttcContainer h1 {
+  font-family: 'Righteous', cursive;
+}
+
 .content {
   position: absolute;
   width: 100%;
   padding: 30px;
   padding-top: 140px;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 .row {
   display: flex;

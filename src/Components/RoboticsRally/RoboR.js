@@ -55,7 +55,7 @@ function RoboR() {
               <img className="img" src={qr} alt="" />
             </div>
           </a>
-          <h2 className="scan" style={{ textAlign: "center", color: "white", width: "300px" }}>SCAN OR CLICK ON QR CODE TO REGISTER</h2>
+          <h2 className="scan" style={{ textAlign: "center", color: "white", width: "300px" }}>CLICK ON QR CODE TO REGISTER</h2>
         </div>
 
         <div className="box">

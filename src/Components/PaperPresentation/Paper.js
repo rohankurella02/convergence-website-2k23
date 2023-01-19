@@ -8,78 +8,7 @@ import Navbar from "../Navbar/Navbar";
 function Paper() {
   var [windowSize, setWindowSize] = useState(getWindowSize());
 
-  var [card, setCard] = useState([
-    {
-      id: 1,
-      heading: "One",
-      text: "AI/ML/DL",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 2,
-      heading: "Two",
-      text: "Cyber Security",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Three",
-      text: "5G Wireless System",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Four",
-      text: "Electrical Vehicles",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Five",
-      text: "Renewable Energy",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Six",
-      text: "Process Control Automation",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Seven",
-      text: "Structural Health Monitoring",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Eight",
-      text: "Internet Of Things",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Nine",
-      text: "Mobility, Automotive and Transportation",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-    {
-      id: 1,
-      heading: "Ten",
-      text: "Trends in Automobile",
-      cardHeading: { fontSize: "2.5rem" },
-      cardText: { fontSize: "1.5rem" },
-    },
-  ]);
+  
 
   useEffect(() => {
     function handleWindowResize() {
@@ -109,7 +38,7 @@ function Paper() {
             </h5>
             <h5>DEADLINES</h5>
             <h5>
-              <b style={{ display: "inline-block" }}>Registration:</b>
+              <b style={{ display: "inline-block"}}>Registration:</b>
               15th JAN,2023
             </h5>
             <h5>
@@ -131,11 +60,16 @@ function Paper() {
               <img className="qrImg" src={qr} alt="qr" />
             </div>
           </a>
-          <div
+           <div
             className="scan"
-            style={{ padding: "10px", textAlign: "center", color: "white" }}
+            style={{
+              paddingTop: "10px",
+              paddingBottom: "70px",
+              textAlign: "center",
+              color: "white",
+            }}
           >
-            Scan or click on the QR Code To Register
+            Click QR To Register
           </div>
         </div>
         <div className="box">
@@ -164,8 +98,156 @@ function Paper() {
         <h1>Domains</h1>
       </div>
 
-      <div className="cards">
-        <Card card={card} />
+      <div className="row">
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">AI/ML/DL</h1>
+          </div>
+
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">01</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Cyber Security</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">02</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">5G Wireless System</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">03</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div class="newcard1 col">
+          <div>
+            <h1 className="hd1">
+             Electrical Vehicles
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">04</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard1 col">
+          <div>
+            <h1 className="hd1">Renewable Energy</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">05</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+          <div class="newcard col">
+          <div>
+            <h1 className="hd1">Process Control Automation</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">06</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Structural Health Monitoring</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">07</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+        <div class="newcard col">
+          <div>
+            <h1 className="hd1">Internet Of Things</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">08</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="row">
+         <div class="newcard1 col">
+          <div>
+            <h1 className="hd1">Mobility, Automotive and Transportation</h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">09</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
+        <div class="newcard1 col">
+          <div>
+            <h1 className="hd1">
+             Trends in Automobile
+            </h1>
+          </div>
+          <div class="cover">
+            <div class="coverFront">
+              <div>
+                <h1 className="num">10</h1>
+              </div>
+            </div>
+            <div class="coverBack"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
