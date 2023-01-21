@@ -140,7 +140,7 @@ body {
 .clubs {
   display: flex;
   width: 100%;
-  gap: 20px;
+  gap: 20%;
   align-items: center;
   /* justify-content: center; */
   /* flex-direction: row; */
@@ -169,7 +169,7 @@ body {
 }
 
 .club {
-  width: 20em;
+  width: 60%;
   background-color: white;
   /* opacity: 0.5; */
   border-radius: 20px;

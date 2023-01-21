@@ -104,7 +104,7 @@ https://forms.gle/pgdZbQQFzJhnhp61A<br />
 6. Smart Vehicles<br />
 7. Robotics and Drones <br />
 8. 3D Modelling and 3D Printing <br />
-9. Design of Anchored Connections <br />
+9. Tekla Structures Steel Detailing <br />
 10. Automotive Embedded Systems <br />
 11. Analysing and Visualising Data through advanced frameworks<br />
 12. The Role of Mathematics in Mezzanine technologies <br />
