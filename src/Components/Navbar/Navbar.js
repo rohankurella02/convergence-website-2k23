@@ -128,7 +128,7 @@ function Navbar() {
                   Hardware Hackathon
                 </Dropdown.Item>
                 <Dropdown.Item className="text-dark" href="/cad-athon">
-                  Cadathon
+                  Campus Automation Contest
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>

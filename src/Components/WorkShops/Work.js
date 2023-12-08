@@ -64,10 +64,10 @@ function Work() {
         <div className="box">
           <span className="spanBox">
             <h2>Student Coordinators</h2>
-           <p>A. Sai Shreya - 86887 61933</p>
-<p>C. Ravi Varma - 99122 63085</p>
-<p>E. Bhanusree - 63057 45015</p>
-<p>I. Navya - 96520 46095</p>
+           <p>K. Akhil - 79897 65743</p>
+<p>Pavan - 63001 06036</p>
+<p>Vinay - 63052 06632</p>
+<p>Nevan - 63044 07924</p>
           </span>
         </div>
       </div>
@@ -78,7 +78,7 @@ function Work() {
         </div>
         <div className="hBody">
           Hey there!!<br />
-We, team <b>WORKSHOPS</b>, are extremely delighted to present the 13 workshops that are a part of <b>CONVERGENCE 2k23!</b><br />
+We, team <b>WORKSHOPS</b>, are extremely delighted to present the 14 workshops that are a part of <b>CONVERGENCE 2k23R!</b><br />
 <br />
 <b>“Tell me and I forget, teach me and I may remember, involve me and I learn.”</b> <br />- Benjamin Franklin<br />
 <br />
@@ -93,22 +93,24 @@ https://forms.gle/pgdZbQQFzJhnhp61A<br />
 <br />
 <b>Note:</b><br />
 1. It is mandatory to have a <b>Convergence pass</b> to participate for workshops.<br />
-2. Every workshop has a <b>limit of 60 students.</b> It will be based on <b>first come, first serve. </b><br />
+2. <b>Limited seats</b> are allocated for each workshop and registration operates on a <b>first-come, first-served basis</b>. So, do register soon.<br />
+3. Participants will receive the <b>participation certificates</b>.<br/>
 <br />
 <b>List of workshops:</b><br />
-1. React Native <br />
-2. Applied AI <br />
-3. Ethical Hacking <br />
-4. DevOps <br />
-5. IoT Workshop using ESP32 and NodeMCU <br />
-6. Smart Vehicles<br />
-7. Robotics and Drones <br />
-8. 3D Modelling and 3D Printing <br />
-9. Tekla Structures Steel Detailing <br />
-10. Automotive Embedded Systems <br />
-11. Analysing and Visualising Data through advanced frameworks<br />
-12. The Role of Mathematics in Mezzanine technologies <br />
-13. Design Thinking - A human centric approach<br />
+1. Flutter <br />
+2. FPGA <br />
+3. Robotics <br />
+4. 3D Printing <br />
+5. Draft-a-thon <br />
+6. Creation of Video tour <br />
+7. Datathon(Swecha) <br />
+8. Unlocking industrial automation <br />
+9. Data Visualization <br />
+10. Model based design <br />
+11. Drones <br />
+12. Git and Github <br />
+13. Rust(Swecha)<br />
+14. Path to success- Mastering UPSC exams <br/>
 <br />
 
 

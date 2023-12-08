@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import "./capture-the-flag.css";
-import qr from "../../Assets/qr.jpg";
+import qr from "../../Assets/qr.png";
 import { GiDiamondTrophy } from "react-icons/gi";
 import hackathon from "../../Assets/hackathon.jpg";
 import { useLocation } from "react-router-dom";
@@ -39,14 +39,14 @@ function CaptureFlag() {
             </p>
             <p><b>Team Size :</b> 1 - 3</p>
             <h5>DEADLINES</h5>
-            <p><b>Registration:</b> 22nd JAN,2023</p>
-            <p><b>Intramurals :</b> 20th JAN,2023</p>
+            <p><b>Registration:</b> 12th DEC,2023</p>
+            <p><b>Intramurals :</b> 12th DEC,2023</p>
           </span>
         </div>
 
         <div>
           
-          <a target='_blank' href="https://tinyurl.com/Conv-CTF-Reg">
+          <a target='_blank' href="https://forms.gle/AT8E8Dwjjm1EP6rEA">
             <div className="qrcode">
               <span className="span"></span>
               <span className="span"></span>
@@ -60,10 +60,10 @@ function CaptureFlag() {
 
         <div className="box">
           <span className="spanBox b3">
-           <h2>First Round</h2>
-           <p><b>Date:</b>24th Jan 2023</p>
-           <h2>Second Round</h2>
-            <p><b>Date:</b>25th Jan 2023</p>
+           <h2>Qualifier Round</h2>
+           <p><b>Date:</b>14th Dec 2023</p>
+           <h2>Final Round</h2>
+            <p><b>Date:</b>15th Dec 2023</p>
             
           </span>
         </div>
@@ -73,14 +73,17 @@ function CaptureFlag() {
           <h1 className="heading1">Capture the Flag</h1>
         </div>
         <div className="hBody">
-         <b> Hello people!</b><br />
-As a part of Convergence, Hyderabad's biggest technical fest, we, the team of Capture The Flag are excited to announce one of a kind event for all the cybersecurity geeks out there.<br />
-
-Through this event, join us on this adventure, where each flag is a new mission and each mission leads to an unexplored horizon. Experience the opportunity to think out-of-the-box, work together and solve interactive puzzles while learning essential cybersecurity concepts, so now's the chance to sign up for it!<br />
+         <b> Hey guys!!</b><br />
+         Calling all tech enthusiasts and security aficionados!
 <br />
-Date: 24th - 25th January 2023<br />
-Deadline to register: 22nd January 2023<br />
-Intramurals: 20th January 2023<br />
+Gear up for an adrenaline-fueled journey into the world of cybersecurity as we present the Capture the Flag (CTF)
+<br />
+
+<br/>
+<br />
+Date: 14th - 15th December 2023<br />
+Deadline to register: 12th December 2023<br />
+Intramurals: 12th December 2023<br />
 Team size: 1-3<br />
 <br />
 Exciting prizes are in store for the winners!<br />
@@ -93,10 +96,9 @@ Note:<br />
 
  <br/>
 <b> For any queries, please contact:</b><br/>
-Sharwani Kusumba- 96189 53075 <br/>
-Yasaswini Ganji-63024 25547<br />
-Divya Sree Nemmikanti-93904 33566<br/>
-Suhas Patlolla-99891 81755<br/>
+Apurva- 79959 10789 <br/>
+Shahriyaan-93921 10872<br />
+Sabeeha-89851 22786<br/>
         
         </div>
       </div>

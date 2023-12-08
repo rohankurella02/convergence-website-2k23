@@ -38,14 +38,14 @@ function Shack({ type }) {
               <b>Criteria</b> : Convergence Pass
             </p>
             <p>
-              <b>Team Size :</b> 2 - 4
+              <b>Team Size :</b> 3 - 4
             </p>
             <h5>DEADLINES</h5>
             <p>
-              <b>Registration:</b> 18th JAN,2023
+              <b>Registration:</b> 12th DEC,2023
             </p>
             <p>
-              <b>Intramurals :</b> 17th-18th JAN,2023
+              <b>Intramurals :</b> 9th DEC,2023
             </p>
           </span>
         </div>
@@ -73,9 +73,9 @@ function Shack({ type }) {
 
         <div className="box">
           <span className="spanBox">
-            <h1>Prize Pool</h1>
+            <h1>Prize Pool and Support upto</h1>
             <br></br>
-            <h1>25,000/-</h1>
+            <h1>75,000/-</h1>
 
             <GiDiamondTrophy size={100} />
           </span>
@@ -100,17 +100,17 @@ function Shack({ type }) {
           <br />
           <b>Theme :</b> DIGITAL ERA 2.0
           <br />
-          <b>Date :</b> 24th-25th January, 2023
+          <b>Date :</b> 14th-15th December, 2023
           <br />
-          <b>Time :</b> 23 hrs Hackathon
+          <b>Time :</b> 24 hrs Hackathon
           <br />
-          <b>Deadline to register :</b> 18th January, 2023
+          <b>Deadline to register :</b> 12th December,2023
           <br />
-          <b>Intramurals :</b> 17th-18th January, 2023
+          <b>Intramurals :</b> 9th December, 2023
           <br />
-          <b>Team size :</b> 2-4
+          <b>Team size :</b> 3-4
           <br />
-          <b>Prize pool :</b> Rs.25,000 for each hackathon
+          <b>Prize pool :</b> Rs.75,000 for each hackathon
           <br />
           <br />
           <b>Hackathon Process:</b>
@@ -151,13 +151,9 @@ function Shack({ type }) {
           <br />
           <b> For any queries, please contact:</b>
           <br />
-          S. Yahwanth-9515663123
+          Nithin- 7396813838
           <br />
-          B. Avinash- 9390333167
-          <br />
-          B.Poojitha- 6303489035
-          <br />
-          Meenakshi- 9390167110
+          Adithya- 6302722627
           <br />
         </div>
       </div>

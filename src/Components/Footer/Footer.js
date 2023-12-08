@@ -37,7 +37,7 @@ function Footer() {
             {/* <h2>Follow Us</h2> */}
             <div className="icons">
           <a target='_blank' href="https://www.facebook.com/VNRVJ/"><i className="fab fa-facebook-f fa-lg"></i></a>
-          <a target='_blank' href="https://www.instagram.com/convergence2k23_vnrvjiet/"><i className="fab fa-instagram fa-lg"></i></a>
+          <a target='_blank' href="https://www.instagram.com/convergence2k23r_vnrvjiet/"><i className="fab fa-instagram fa-lg"></i></a>
           <a target='_blank' href="https://twitter.com/vnrvjieto"><i className="fab fa-twitter fa-lg"></i></a>
           <a target='_blank' href="https://www.linkedin.com/school/vnr-vignanajyothiinstituteofengineeringandtechnology/?originalSubdomain=in"><i className="fab fa-linkedin-in fa-lg"></i></a>
 
@@ -50,17 +50,17 @@ function Footer() {
           <Modal.Title>Call or text us at</Modal.Title>
         </Modal.Header>
         <Modal.Body className='modalBodyBG text-light border border-light'>
-          <b>Nippun:</b>
-          <p>8712798597</p>
+          <b>Vinay:</b>
+          <p>6305206632</p>
           
-          <b>Dheeraj:</b>
-          <p>7207020464</p>
+          <b>Pavan:</b>
+          <p>6300106036</p>
           
-          <b>Sushanth:</b>
-          <p>9502329336</p>
+          <b>Akhil:</b>
+          <p>7989765743</p>
           
-          <b>Puneeth:</b>
-          <p>9390651145</p>
+          <b>Nevan:</b>
+          <p>6304407924</p>
           
         </Modal.Body>
         {/* <Modal.Footer>
