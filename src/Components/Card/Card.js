@@ -1,25 +1,29 @@
-import React from 'react'
-import './Card.css'
+import React from "react";
+import "./Card.css";
 
-function Card({card}) {
+function Card({ card }) {
   return (
-    <div className='cardContainer'>
-      {
-        card?.map((item) => {
-          return (
-            <div className="cardBox">
-              <span></span>
-              <div className="cardContent">
-                <h2 style={item.cardHeading} className="cardHeading">{item.heading}</h2>
-                <p style={item.cardText} className="cardText">{item.text}</p>
-                <a className="cardButton">Read More</a>
-              </div>
+    <div className="cardContainer">
+      {card?.map((item) => {
+        return (
+          <div class="newcard col">
+            <div>
+              <h1 style={item.cardHeading}>{item.text}</h1>
             </div>
-          )
-        })
-      }
+
+            <div class="cover">
+              <div class="coverFront">
+                <div>
+                  <h1 style={item.cardText}>{item.heading}</h1>
+                </div>
+              </div>
+              <div class="coverBack"></div>
+            </div>
+          </div>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;

@@ -1,0 +1,508 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.img {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  
+}
+
+.num {
+  font-family: 'Righteous', cursive;
+  text-shadow: none;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container .hexagonArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 913px) {
+  .container .hexagonArea.last {
+    transform: translateY(-45px);
+  }
+  .container .hexagonArea.zero {
+    transform: translateY(45px);
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1113px) {
+  .container .last {
+    margin-top: 40px;
+  }
+  .container .first {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 587px) and (max-width: 816px) {
+  .container .hexagonArea.last:first-child {
+  }
+}
+
+@media screen and (min-width: 825px) and (max-width: 1113px) {
+  .container .hexagonArea.def {
+    margin-top: 0%;
+  }
+}
+
+.container .hexagonArea .hexagon {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 0 10px;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #263159;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+  box-shadow: inset 1px 0px 20px 3px #000000;
+}
+
+.container .hexagonArea .hexagon:hover {
+  background-color: deepskyblue;
+  transform: scale(0.8);
+}
+
+.maincont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.qrcode {
+  background-color: #fff;
+  width: 220px;
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.maincont .qrcode .span {
+  transition: 0.5s;
+}
+
+.maincont .qrcode .span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(to right, transparent, #1779ff);
+  animation: animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.maincont .qrcode .span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #1779ff);
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.maincont .qrcode .span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(to left, transparent, #1779ff);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.maincont .qrcode .span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #1779ff);
+  animation: animate4 2s linear infinite;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.r1b1:after {
+  content: "01";
+  font-size: 50px;
+}
+
+.r1b1:hover:after {
+  content: "Mobile app for real-time Crop monitoring";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.r1b2:after {
+  content: "02";
+  font-size: 50px;
+}
+
+.r1b2:hover:after {
+  content: "Developing Geo-referenced interactive map interface using open source technologies.";
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.r1b3:after {
+  content: "03";
+  font-size: 50px;
+}
+
+.r1b3:hover:after {
+  content: "Development of Smart system from Farm to Consumer weekly santhe";
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r2b1:after {
+  content: "04";
+  font-size: 50px;
+}
+
+.r2b1:hover:after {
+  content: "Web/App to provide an interface between government and citizens.";
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r2b2:after {
+  content: "05";
+  font-size: 50px;
+}
+
+.r2b2:hover:after {
+  content: "Develop a software solution in providing awareness of available medical facilities.";
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r2b3:after {
+  content: "06";
+  font-size: 50px;
+}
+
+.r2b3:hover:after {
+  content: "Device to measure Steroid content in Milk/Meat Products.";
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r2b4:after {
+  content: "07";
+  font-size: 50px;
+}
+
+.r2b4:hover:after {
+  content: "Detection of Stress in Humans from voice.";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r3b1:after {
+  content: "08";
+  font-size: 50px;
+}
+
+.r3b1:hover:after {
+  content: "Cyber Crime Tracking";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r3b2:after {
+  content: "09";
+  font-size: 50px;
+}
+
+.r3b2:hover:after {
+  content: "Detection of Fake Profiles";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.r3b3:after {
+  content: "10";
+  font-size: 50px;
+}
+
+.r3b3:hover:after {
+  content: "Tracking & Tracing of Fake News.";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media (max-width: 825px) {
+  .r1b0:after {
+    content: "01";
+    font-size: 50px;
+  }
+
+  .r1b0:hover:after {
+    content: "Mobile app for real-time Crop monitoring";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .r1b1:after {
+    content: "02";
+    font-size: 50px;
+  }
+
+  .r1b1:hover:after {
+    content: "Developing Geo-referenced interactive map interface using open source technologies.";
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r1b2:after {
+    content: "03";
+    font-size: 50px;
+  }
+
+  .r1b2:hover:after {
+    content: "Development of Smart system from Farm to Consumer weekly santhe";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r1b3:after {
+    content: "04";
+    font-size: 50px;
+  }
+
+  .r1b3:hover:after {
+    content: "Web/App to provide an interface between government and citizens.";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r2b1:after {
+    content: "05";
+    font-size: 50px;
+  }
+
+  .r2b1:hover:after {
+    content: "Develop a software solution in providing awareness of available medical facilities.";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r2b2:after {
+    content: "06";
+    font-size: 50px;
+  }
+
+  .r2b2:hover:after {
+    content: "Develop a software solution in providing awareness of available medical facilities.";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r2b3:after {
+    content: "07";
+    font-size: 50px;
+  }
+
+  .r2b3:hover:after {
+    content: "Detection of Stress in Humans from voice.";
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (min-width: 826px) {
+  .r3b1:after {
+    content: "07";
+    font-size: 50px;
+  }
+
+  .r3b1:hover:after {
+    content: "Detection of Stress in Humans from voice.";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r3b2:after {
+    content: "08";
+    font-size: 50px;
+  }
+
+  .r3b2:hover:after {
+    content: "Cyber Crime Tracking";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r3b3:after {
+    content: "09";
+    font-size: 50px;
+  }
+
+  .r3b3:hover:after {
+    content: "Detection of Fake Profiles.";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (min-width: 1096px) {
+  .r3b1:after {
+    content: "08";
+    font-size: 50px;
+  }
+
+  .r3b1:hover:after {
+    content: "Cyber Crime Tracking";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r3b2:after {
+    content: "09";
+    font-size: 50px;
+  }
+
+  .r3b2:hover:after {
+    content: "Detection of Fake Profiles.";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .r3b3:after {
+    content: "10";
+    font-size: 50px;
+  }
+
+  .r3b3:hover:after {
+    content: "Tracking & Tracing of Fake News.";
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.r4b0:after {
+  content: "10";
+  font-size: 50px;
+}
+
+.r4b0:hover:after {
+  content: "Tracking & Tracing of Fake News.";
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.hd2{
+  font-size: 25px;
+}
+.b10{
+  padding-top: 60px;
+}
+.pb{
+  padding-bottom: 100px;
+}

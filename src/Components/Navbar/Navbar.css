@@ -1,5 +1,4 @@
-.navbar {
-    /* background-color: rgba(0, 0, 0, 0.242); */
+.navbarr {
     color: #fff;
     padding: 0.5rem 1rem;
     display: flex;
@@ -11,8 +10,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    /* position: fixed;
-    top: 0; */
     width: 100%;
     z-index: 999;
 }
@@ -23,7 +20,6 @@
     margin-right: 25px;
     margin-top: 10px;
     z-index: 1;
-    /* -webkit-user-select: none; */
     user-select: none;
 }
 
@@ -43,6 +39,11 @@
     margin-left: 10px;
     opacity: 0;
     z-index: 2;
+}
+
+ a {
+    text-decoration: none !important;
+  color: white !important;
 }
 
 .menu-btn span {
@@ -75,6 +76,10 @@
     transform-origin: 0% 100%;
 }
 
+.menu-link.hide {
+    display: none;
+}
+
 .menu-btn input:checked ~ span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(0, -1px);
@@ -88,11 +93,10 @@
     height: 100vh;
     top: -1px;
     z-index: -5;
-    /* -webkit-font-smoothing: antialiased; */
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-    /* z-index: 999; */
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 600px) {
@@ -110,17 +114,20 @@
 
 .menu-link {
     background-color: #007691;
-    z-index: 9990;
+    z-index: 999;
     color: #FFFFFF;
     border: none;
     font-weight: 600;
     font-style: normal;
     font-size: 4.7vw;
     width: 80vw;
+    display: flex;
+    align-items: center;
+    gap: 2vmin;
     /* background: #007691; */
     padding-top: 0.5vw;
     padding-bottom: 0.4vw;
-    padding-left: 3vw;
+    padding-left: 2vw;
     margin-bottom: 3vw;
     text-align: start;
     clip-path: polygon(0 0, 0 100%, 60% 100%, 52% 0, 54% 0, 62% 100%, 62% 100%, 70% 100%, 62% 0, 64% 0, 72% 100%, 80% 100%, 80% 100%, 72% 0, 74% 0, 82% 100%, 82% 100%, 90% 100%, 82% 0, 84% 0, 92% 100%, 92% 100%, 100% 100%, 92% 0);
@@ -152,12 +159,16 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     padding-right: 30px;
 }
 
 .navLogo img{
-    width: 80px;
-    height: 90px;
-    margin: 0 1rem;
+    width: 70px;
+    height: 80px;
+    margin: 0 1em;
+    margin-top: 10px;
+}
+.dropdown-toggle::after {
+    color: white;
 }

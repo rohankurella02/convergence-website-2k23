@@ -10,7 +10,9 @@ function Loading() {
         <div className="imgOverlay"></div>
       <video src={back_video} className='backVideo' autoPlay playsInline loop muted />
         <img className='portalImage' src={portal} alt="Loading" />
+        <div className="imgCont">
         <img className='convergenceLogo' src={convergence_logo} alt="Loading" />
+        </div>
     </div>
   )
 }

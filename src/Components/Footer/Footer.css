@@ -25,6 +25,7 @@
     padding: 10px 20px;
     border-radius: 30px;
     transition: .5s all ease-in-out;
+    font-size: 3vmin;
 }
 
 .sponsors:hover {
@@ -48,4 +49,17 @@
     align-items: center;
     gap: 20px;
     padding: 10px 20px;
+}
+
+.modalBG{
+    background-color: #370d37 !important;
+}
+
+.modalBodyBG{
+    background-color: #4b1a53 !important;
+}
+
+.modalBG .btn-close{
+    background-color: white !important;
+    opacity: 1;
 }
