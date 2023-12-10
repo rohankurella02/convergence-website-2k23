@@ -3,6 +3,7 @@ import "./Navbar.css";
 import vnr from "../../Assets/vnr.png";
 import { useMediaQuery } from "react-responsive";
 import Dropdown from "react-bootstrap/Dropdown";
+import convergence_logo from '../../Assets/convologowhite.png';
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
@@ -32,7 +33,7 @@ function Navbar() {
         <div className="navLogo">
           <a href="/">
             <img src={vnr} alt="logo" />
-            <img src="https://res.cloudinary.com/da1f0jqh8/image/upload/v1674060410/CONV_Logo_2_rbvzbq.png" alt="logo" />
+            <img src={convergence_logo} alt="logo" />
           </a>
         </div>
         {isMobile ? (

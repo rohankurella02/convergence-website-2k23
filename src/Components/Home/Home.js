@@ -2,7 +2,7 @@ import { useState } from 'react';
 // import './App.css';
 import "./Home.css";
 import Loading from '../Loading';
-import convergence_logo from '../../Assets/convergence_logo.png';
+import convergence_logo from '../../Assets/convologowhite.png';
 import Card from '../Card/Card';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
@@ -25,7 +25,7 @@ function Home() {
                     <Navbar />
                     <div className="home_container">
                         <img className='logo_1' src={convergence_logo} alt="Loading" />
-                        <a href="https://www.townscript.com/e/national-technical-fest-convergence-2k23-experience-innovation-230102"><img className='logo_2' src={RegisterLogo} alt="Register" /></a>
+                        <a href="https://linktr.ee/vnrvjiet_event"><img className='logo_2' src={RegisterLogo} alt="Register" /></a>
                     </div>
                     <Footer />
                     <div className="filler"></div>

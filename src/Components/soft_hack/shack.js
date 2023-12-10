@@ -53,7 +53,7 @@ function Shack({ type }) {
         <div>
           <a
             target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe9aAqn8rnXJtBVdvvEtQ1GyYgvD6aOTe4HbrsJJCAauN6ybQ/viewform"
+            href="https://www.mihvnrvjiet.org/convergence-hackathon"
           >
             <div className="qrcode">
               <span className="span"></span>
